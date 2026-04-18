@@ -1,8 +1,8 @@
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const Anthropic = require('@anthropic-ai/sdk');
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-const MODEL = 'gemini-2.0-flash';
+const MODEL = 'claude-opus-4-7';
 
 const SYSTEM_PROMPT = `You are a forensic document examiner AI with expertise in identifying forged, manipulated, or tampered documents. Your role is to analyze document images with the precision of a trained document fraud investigator.
 
@@ -50,68 +50,61 @@ Use this exact schema:
 
 If the document appears genuine, return empty flags array, verdict AUTHENTIC, and overall_confidence above 80.`;
 
-const RETRY_PROMPT = `The previous response was not valid JSON. Return ONLY a raw JSON object with no markdown, no code fences, no explanation. Use this schema exactly:
-{
-  "verdict": "AUTHENTIC",
-  "overall_confidence": 50,
-  "summary": "Unable to fully analyze.",
-  "risk_level": "LOW",
-  "document_type_detected": "unknown",
-  "flags": [],
-  "recommendations": []
-}
-Correct the JSON and return only the raw object.`;
-
-/**
- * Strip markdown code fences if the model accidentally wraps the JSON.
- */
-function stripMarkdownFences(text) {
-  return text
-    .replace(/^```(?:json)?\s*/i, '')
-    .replace(/\s*```\s*$/, '')
-    .trim();
+function stripFences(text) {
+  return text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/, '').trim();
 }
 
-/**
- * Parse the model's response text into a validated JSON object.
- */
 function parseResponse(text) {
-  const cleaned = stripMarkdownFences(text);
-  return JSON.parse(cleaned);
+  return JSON.parse(stripFences(text));
 }
 
 /**
- * Analyze a single document page image with Gemini Vision.
+ * Analyze a single document page image with Claude Vision.
  *
- * @param {string} base64Image - Base64-encoded PNG/JPEG image string (no data URI prefix).
- * @param {string} [mediaType='image/png'] - MIME type of the image.
- * @param {string} [language='English'] - Language hint for regional documents.
- * @returns {Promise<Object>} Parsed forensic analysis result.
+ * @param {string} base64Image - Base64-encoded PNG/JPEG (no data URI prefix).
+ * @param {string} mediaType   - 'image/png' or 'image/jpeg'
+ * @param {string} language    - Language hint for regional documents.
  */
 async function analyzeDocument(base64Image, mediaType = 'image/png', language = 'English') {
-  const languageInstruction = language && language.toLowerCase() !== 'english'
+  const langNote = language && language.toLowerCase() !== 'english'
     ? `\n\nIMPORTANT: This document may contain text in ${language}. Apply the same forensic analysis criteria to non-Latin scripts. Look for font inconsistencies and character spacing anomalies specific to ${language} typography.`
     : '';
-
-  const model = genAI.getGenerativeModel({
-    model: MODEL,
-    systemInstruction: SYSTEM_PROMPT + languageInstruction,
-    generationConfig: { maxOutputTokens: 2048 },
-  });
-
-  const imagePart = { inlineData: { mimeType: mediaType, data: base64Image } };
-  const textPart = { text: 'Analyze this document for signs of forgery or tampering. Return raw JSON only.' };
 
   const start = Date.now();
 
   // ── First attempt ────────────────────────────────────────────────────────────
   let responseText;
   try {
-    const result = await model.generateContent([imagePart, textPart]);
-    responseText = result.response.text();
-    console.log(`[analyzer] Gemini responded in ${Date.now() - start}ms`);
+    const response = await client.messages.create({
+      model: MODEL,
+      max_tokens: 2048,
+      system: [
+        {
+          type: 'text',
+          text: SYSTEM_PROMPT + langNote,
+          cache_control: { type: 'ephemeral' }, // prompt caching for system prompt
+        },
+      ],
+      messages: [
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'image',
+              source: { type: 'base64', media_type: mediaType, data: base64Image },
+            },
+            {
+              type: 'text',
+              text: 'Analyze this document for signs of forgery or tampering. Return raw JSON only.',
+            },
+          ],
+        },
+      ],
+    });
+    responseText = response.content[0].text;
+    console.log(`[analyzer] Claude responded in ${Date.now() - start}ms`);
   } catch (apiErr) {
-    throw new Error(`Gemini API call failed: ${apiErr.message}`);
+    throw new Error(`Claude API call failed: ${apiErr.message}`);
   }
 
   // ── Parse first attempt ───────────────────────────────────────────────────────
@@ -119,20 +112,38 @@ async function analyzeDocument(base64Image, mediaType = 'image/png', language = 
     return parseResponse(responseText);
   } catch (parseErr) {
     console.warn(`[analyzer] JSON parse failed on first attempt: ${parseErr.message}`);
-    console.warn(`[analyzer] Raw response snippet: ${responseText.slice(0, 200)}`);
+    console.warn(`[analyzer] Raw snippet: ${responseText.slice(0, 200)}`);
   }
 
   // ── Retry with correction prompt ─────────────────────────────────────────────
   console.log('[analyzer] Retrying with JSON correction prompt...');
   try {
-    const chat = model.startChat({
-      history: [
-        { role: 'user', parts: [imagePart, textPart] },
-        { role: 'model', parts: [{ text: responseText }] },
+    const retry = await client.messages.create({
+      model: MODEL,
+      max_tokens: 2048,
+      system: [
+        {
+          type: 'text',
+          text: SYSTEM_PROMPT + langNote,
+          cache_control: { type: 'ephemeral' },
+        },
+      ],
+      messages: [
+        {
+          role: 'user',
+          content: [
+            { type: 'image', source: { type: 'base64', media_type: mediaType, data: base64Image } },
+            { type: 'text', text: 'Analyze this document for signs of forgery or tampering. Return raw JSON only.' },
+          ],
+        },
+        { role: 'assistant', content: responseText },
+        {
+          role: 'user',
+          content: 'Your previous response was not valid JSON. Return ONLY a raw JSON object — no markdown, no code fences, no explanation.',
+        },
       ],
     });
-    const retryResult = await chat.sendMessage(RETRY_PROMPT);
-    const retryText = retryResult.response.text();
+    const retryText = retry.content[0].text;
     const parsed = parseResponse(retryText);
     console.log('[analyzer] Retry parse succeeded');
     return parsed;
