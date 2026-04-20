@@ -22,6 +22,9 @@ matplotlib>=3.8.0
 easyocr>=1.7.0
 pytesseract>=0.3.10
 
+# Optional stronger OCR backend
+# paddleocr>=2.8.0
+
 # Misc utilities
 numpy>=1.24.0
 scipy>=1.11.0

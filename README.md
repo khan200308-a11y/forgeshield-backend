@@ -1,182 +1,199 @@
-# ForgeShield — Document Forgery Detection System
+# ForgeShield
 
-Dual-engine document forgery detector combining:
-- **Claude Vision AI** — semantic, layout, and contextual analysis
-- **Python ML Detector** — pixel-level ELA, ViT font forensics, LayoutLMv3, Noiseprint++, LightGBM fusion
+ForgeShield is a document forgery detection system with:
 
----
+- a built-in frontend served by the Node backend at `http://localhost:5000`
+- an Express API that accepts PDF, JPG, and PNG uploads
+- a Python detector service that runs OCR, image forensics, rule-based checks, and learned fusion
+- optional Claude analysis when `ANTHROPIC_API_KEY` is configured
+- graceful fallback to Python-only analysis when Claude is unavailable
+
+## Current Architecture
+
+```text
+Browser UI
+  -> Node.js backend (`backend/`, port 5000)
+     -> PDF/image preprocessing
+     -> Claude analysis (optional)
+     -> Python detector (`detector/`, port 8000)
+     -> merged page-level results
+```
+
+The frontend is already included in this repo at `backend/public/index.html`.
+
+## Main Features
+
+- Upload UI for PDF, JPG, and PNG
+- Per-page verdicts and aggregated document verdict
+- Python forensic dashboard with:
+  - composite evidence map
+  - anomaly mask
+  - suspicious field regions
+  - suspicious crops
+- CPU-friendly training and inference defaults
+- cross-validated LightGBM fusion model
+- out-of-distribution warning for unfamiliar document styles
+- optional offline local LLM semantic audit layer
 
 ## Project Structure
 
+```text
+forgeshield-backend/
++-- backend/
+|   +-- public/                 Frontend served at `/`
+|   +-- routes/analyze.js       Main analysis route
+|   +-- utils/                  Claude, Python, and PDF helpers
+|   +-- server.js               Express entrypoint
+|   `-- README.md
++-- detector/
+|   +-- detector_api.py         FastAPI wrapper
+|   +-- unified_detector.py     Main detector pipeline
+|   +-- training_pipeline.py    Fusion training
+|   +-- requirements.txt
+|   `-- Noiseprint/
++-- data/
+|   +-- original/
+|   `-- forged_dataset/
++-- .env.example
+`-- README.md
 ```
-final_project/
-├── backend/                  Node.js Express API (port 5000)
-│   ├── server.js
-│   ├── routes/
-│   │   └── analyze.js        POST /api/analyze — merges both engines
-│   └── utils/
-│       ├── claudeAnalyzer.js Claude Vision integration
-│       ├── pdfToImage.js     PDF → PNG conversion
-│       └── pythonDetector.js HTTP client for Python API
-│
-├── detector/                 Python FastAPI service (port 8000)
-│   ├── detector_api.py       REST wrapper (start this first)
-│   ├── unified_detector.py   7-expert ML detector
-│   ├── training_pipeline.py  LightGBM training pipeline
-│   ├── Noiseprint/           Camera noise fingerprint tool
-│   └── requirements.txt
-│
-├── data/                     Dataset
-│   ├── original/
-│   └── forged_dataset/
-│
-├── .env.example
-├── start.bat                 Windows — start both services
-└── start.sh                  Linux/Mac — start both services
-```
-
----
 
 ## Setup
 
-### 1. Environment variables
+### 1. Backend environment
 
-```bash
-cp .env.example backend/.env
-# Edit backend/.env and set ANTHROPIC_API_KEY
+Copy `.env.example` to `backend/.env`.
+
+Example:
+
+```env
+PORT=5000
+NODE_ENV=development
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+PYTHON_DETECTOR_URL=http://localhost:8000
+PYTHON_DETECTOR_TIMEOUT_MS=120000
+DETECTOR_PORT=8000
 ```
 
-### 2. Node.js backend
+`ANTHROPIC_API_KEY` is optional if you want Python-only operation.
 
-```bash
+### 2. Install backend dependencies
+
+```powershell
 cd backend
 npm install
 ```
 
-### 3. Python detector
+### 3. Install detector dependencies
 
-```bash
+```powershell
 cd detector
 pip install -r requirements.txt
 ```
 
-**System dependencies (Windows):**
-- [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) — install to `C:\Program Files\Tesseract-OCR\`
-- [GraphicsMagick](http://www.graphicsmagick.org/) + [Ghostscript](https://www.ghostscript.com/) — required for PDF conversion via pdf2pic (optional, has JS fallback)
+Recommended Windows dependency:
 
----
+- Tesseract OCR at `C:\Program Files\Tesseract-OCR\tesseract.exe`
 
-## Running
+Optional:
 
-### Windows (recommended)
-```
-double-click start.bat
-```
+- PaddleOCR for stronger OCR
+- GraphicsMagick and Ghostscript for the primary PDF conversion path
 
-### Manual (two terminals)
+## Run
 
-**Terminal 1 — Python detector:**
-```bash
+Start the Python detector first:
+
+```powershell
 cd detector
 python detector_api.py
 ```
 
-**Terminal 2 — Node.js backend:**
-```bash
+Then start the backend:
+
+```powershell
 cd backend
 npm start
 ```
 
----
+Open:
 
-## API
+- `http://localhost:5000` for the frontend
+- `http://localhost:5000/api/health` for backend health
+- `http://localhost:8000/health` for detector health
+
+## Training
+
+Train the fusion model from the detector folder:
+
+```powershell
+cd detector
+python training_pipeline.py --train --genuine_folder ..\data\original --overwrite_dataset --num_forged_per_genuine 4 --num_genuine_aug_per_genuine 2
+```
+
+Notes:
+
+- training imports external labeled data from `data/forged_dataset` by default
+- the detector is CPU-friendly by default
+- the trained model is saved as `detector/lightgbm_model.txt`
+- metadata is saved as `detector/lightgbm_model_meta.json`
+
+If the feature schema changes, remove old artifacts first:
+
+```powershell
+Remove-Item feature_cache.json, lightgbm_model.txt, lightgbm_model_meta.json, lightgbm_model_features.pkl -ErrorAction SilentlyContinue
+```
+
+## Optional Offline LLM Layer
+
+ForgeShield can run an optional local semantic audit layer through an Ollama-compatible endpoint.
+
+Example:
+
+```powershell
+$env:FORGESHIELD_ENABLE_OFFLINE_LLM='1'
+$env:FORGESHIELD_OFFLINE_LLM_MODEL='qwen2.5:3b-instruct'
+python detector_api.py
+```
+
+This layer is optional and mainly improves semantic consistency checks and explanations. It does not replace the image forensics pipeline.
+
+## API Summary
 
 ### `POST /api/analyze`
 
-Upload a document for forgery analysis.
+Request:
 
-**Request:** `multipart/form-data`
-- `document` — PDF, JPG, or PNG (max 10 MB)
-- `language` *(optional)* — document language hint (e.g. `Hindi`, `Arabic`)
+- `multipart/form-data`
+- field `document`
+- optional field `language`
 
-**Response:**
-```json
-{
-  "success": true,
-  "filename": "certificate.pdf",
-  "total_pages": 1,
-  "processing_time_ms": 8200,
-  "overall_verdict": "FORGED",
-  "overall_risk": "HIGH",
-  "results": [
-    {
-      "page": 1,
-      "verdict": "FORGED",
-      "risk_level": "HIGH",
-      "overall_confidence": 92,
-      "summary": "...",
-      "document_type_detected": "certificate",
-      "flags": [...],
-      "recommendations": [...],
-      "claude_analysis": {
-        "verdict": "FORGED",
-        "confidence": 92,
-        "risk_level": "HIGH"
-      },
-      "python_analysis": {
-        "verdict": "FORGED",
-        "confidence": 0.81,
-        "scores": {
-          "ela": 0.72,
-          "visual": 0.65,
-          "layout": 0.58,
-          "ocr": 0.43,
-          "text_perp": 0.61,
-          "font_gmm": 0.49,
-          "noiseprint": 0.55
-        },
-        "explanations": {...},
-        "visualization_base64": "<base64 PNG>"
-      }
-    }
-  ]
-}
-```
+Response includes:
 
-The `python_analysis` field is `null` if the Python detector service is unavailable — the system degrades gracefully to Claude-only analysis.
+- overall verdict and risk
+- per-page results
+- analysis source labels such as `Claude + Python fusion`, `Python detector only`, or `Claude only`
+- Python scores, reliability info, visualization, suspicious regions, and suspicious crops when available
 
 ### `GET /api/health`
 
-```json
-{
-  "status": "ok",
-  "timestamp": "2026-04-19T12:00:00.000Z",
-  "python_detector": {
-    "status": "ok",
-    "detector_ready": true
-  }
-}
-```
+Returns backend status plus:
 
----
+- whether Claude is configured
+- whether the Python detector is reachable and ready
 
-## Training the LightGBM model
+## Runtime Behavior
 
-```bash
-cd detector
-python training_pipeline.py --train --genuine_folder ../data/original
-```
+- If Claude is unavailable and Python works, ForgeShield still returns a usable result.
+- If Python is unavailable and Claude works, Claude-only analysis is returned.
+- If neither engine is available, `/api/analyze` returns an error.
+- On CPU, heavyweight experts such as LayoutLMv3, Font ViT, and Noiseprint are disabled by default unless explicitly enabled.
 
-The trained model is saved as `lightgbm_model.txt` in the `detector/` directory and is automatically loaded on next startup.
+## Important Files
 
----
-
-## Verdict Merge Logic
-
-| Claude       | Python     | Python Confidence | Final Verdict |
-|--------------|------------|-------------------|---------------|
-| FORGED       | any        | any               | FORGED        |
-| AUTHENTIC    | FORGED     | > 60%             | FORGED        |
-| AUTHENTIC    | FORGED     | ≤ 60%             | SUSPICIOUS    |
-| SUSPICIOUS   | GENUINE    | any               | SUSPICIOUS    |
-| AUTHENTIC    | GENUINE    | any               | AUTHENTIC     |
+- [backend/server.js](backend/server.js)
+- [backend/routes/analyze.js](backend/routes/analyze.js)
+- [backend/public/index.html](backend/public/index.html)
+- [detector/detector_api.py](detector/detector_api.py)
+- [detector/unified_detector.py](detector/unified_detector.py)
+- [detector/training_pipeline.py](detector/training_pipeline.py)

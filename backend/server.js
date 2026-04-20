@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 
 const express = require('express');
 const cors = require('cors');
@@ -8,9 +8,11 @@ const rateLimit = require('express-rate-limit');
 
 const analyzeRouter = require('./routes/analyze');
 const { checkPythonDetectorHealth } = require('./utils/pythonDetector');
+const { isClaudeConfigured } = require('./utils/claudeAnalyzer');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const PUBLIC_DIR = path.join(__dirname, 'public');
 
 // ── CORS — open to all origins ──────────────────────────────────────────────
 app.use(cors({
@@ -23,6 +25,7 @@ app.options('*', cors());
 // ── Body parser ──────────────────────────────────────────────────────────────
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+app.use(express.static(PUBLIC_DIR));
 
 // ── Request logger ───────────────────────────────────────────────────────────
 app.use((req, _res, next) => {
@@ -94,6 +97,9 @@ app.get('/api/health', async (_req, res) => {
   res.status(200).json({
     status: 'ok',
     timestamp: new Date().toISOString(),
+    claude: {
+      configured: isClaudeConfigured(),
+    },
     python_detector: pythonHealth,
   });
 });

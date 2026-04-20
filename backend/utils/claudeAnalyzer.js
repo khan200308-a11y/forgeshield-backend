@@ -1,8 +1,24 @@
 const Anthropic = require('@anthropic-ai/sdk');
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-
 const MODEL = 'claude-opus-4-7';
+const PLACEHOLDER_API_KEY = 'your_anthropic_api_key_here';
+
+function isClaudeConfigured() {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  return Boolean(apiKey && apiKey !== PLACEHOLDER_API_KEY);
+}
+
+function getClient() {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+
+  if (!isClaudeConfigured()) {
+    throw new Error(
+      'ANTHROPIC_API_KEY is missing. Create backend/.env from .env.example and set a real Anthropic API key.'
+    );
+  }
+
+  return new Anthropic({ apiKey });
+}
 
 const SYSTEM_PROMPT = `You are a forensic document examiner AI with expertise in identifying forged, manipulated, or tampered documents. Your role is to analyze document images with the precision of a trained document fraud investigator.
 
@@ -75,6 +91,7 @@ async function analyzeDocument(base64Image, mediaType = 'image/png', language = 
   // ── First attempt ────────────────────────────────────────────────────────────
   let responseText;
   try {
+    const client = getClient();
     const response = await client.messages.create({
       model: MODEL,
       max_tokens: 2048,
@@ -118,6 +135,7 @@ async function analyzeDocument(base64Image, mediaType = 'image/png', language = 
   // ── Retry with correction prompt ─────────────────────────────────────────────
   console.log('[analyzer] Retrying with JSON correction prompt...');
   try {
+    const client = getClient();
     const retry = await client.messages.create({
       model: MODEL,
       max_tokens: 2048,
@@ -162,4 +180,4 @@ async function analyzeDocument(base64Image, mediaType = 'image/png', language = 
   }
 }
 
-module.exports = { analyzeDocument };
+module.exports = { analyzeDocument, isClaudeConfigured };
