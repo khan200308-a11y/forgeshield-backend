@@ -1,0 +1,5544 @@
+[
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200146.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09513875283300877,
+      "visual": 0.4098351779580116,
+      "layout": 0.5863806329570009,
+      "ocr": 0.3571022824556841,
+      "font_gmm": 0.510786771774292,
+      "noiseprint": 0.48019431662095335,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.48580536246299744,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200146_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10195048749446868,
+      "visual": 0.31068438321352,
+      "layout": 0.6353171120570376,
+      "ocr": 0.38985245304306215,
+      "font_gmm": 0.44872036576271057,
+      "noiseprint": 0.3154925356578907,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5075523257255554,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200146_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09085348919034004,
+      "visual": 0.451006726026535,
+      "layout": 0.5898183857809624,
+      "ocr": 0.40308953947974985,
+      "font_gmm": 0.47618094086647034,
+      "noiseprint": 0.46981130362778856,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.47461315989494324,
+      "text_perp": 0.6000000000000001
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200332.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08548218291252851,
+      "visual": 0.37065646693110466,
+      "layout": 0.5368794138316272,
+      "ocr": 0.39046909627997,
+      "font_gmm": 0.6419820189476013,
+      "noiseprint": 0.43691223281792546,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5758615732192993,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200332_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.06535650826990605,
+      "visual": 0.40510304316878315,
+      "layout": 0.5491336323021417,
+      "ocr": 0.40404117386962507,
+      "font_gmm": 0.6262190937995911,
+      "noiseprint": 0.4314591427076084,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5740259885787964,
+      "text_perp": 0.6799999999999999
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200332_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08594263643026352,
+      "visual": 0.12887696150690314,
+      "layout": 0.510489505884354,
+      "ocr": 0.5431052241094325,
+      "font_gmm": 0.5756368041038513,
+      "noiseprint": 0.07527527803584555,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.6585321426391602,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200344.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1010665524750948,
+      "visual": 0.4074307003617287,
+      "layout": 0.5640015029634001,
+      "ocr": 0.38368862094767964,
+      "font_gmm": 0.5256909728050232,
+      "noiseprint": 0.4676885508337359,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5604905486106873,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200344_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0726446502842009,
+      "visual": 0.44407014250755306,
+      "layout": 0.5535013905150912,
+      "ocr": 0.3697143212917305,
+      "font_gmm": 0.5827237367630005,
+      "noiseprint": 0.4648968232537797,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5479581952095032,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200344_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0834928948432207,
+      "visual": 0.1337218939140439,
+      "layout": 0.5675530004390155,
+      "ocr": 0.5336916876382739,
+      "font_gmm": 0.6418603658676147,
+      "noiseprint": 0.08357514295920956,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5852817893028259,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200355.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09178155045956374,
+      "visual": 0.5,
+      "layout": 0.5796375900849644,
+      "ocr": 0.39735629335530476,
+      "font_gmm": 0.5981667041778564,
+      "noiseprint": 0.46556004756298974,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.581278383731842,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200355_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08013930795714258,
+      "visual": 0.5,
+      "layout": 0.567374511757279,
+      "ocr": 0.38915758740161777,
+      "font_gmm": 0.6029664874076843,
+      "noiseprint": 0.3025872852267084,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6589019298553467,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200355_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07790335658937692,
+      "visual": 0.5,
+      "layout": 0.5357657151421724,
+      "ocr": 0.3687335391129106,
+      "font_gmm": 0.546394944190979,
+      "noiseprint": 0.3079599550923286,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5625925064086914,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200407.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10290351118892431,
+      "visual": 0.5,
+      "layout": 0.5640288053546024,
+      "ocr": 0.37561596162030064,
+      "font_gmm": 0.6260558366775513,
+      "noiseprint": 0.48460220785813124,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4877520799636841,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200407_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10056478716433047,
+      "visual": 0.5,
+      "layout": 0.5753455624412445,
+      "ocr": 0.3692715078992439,
+      "font_gmm": 0.43877482414245605,
+      "noiseprint": 0.3205095252044739,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5064882040023804,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200407_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08176566762849688,
+      "visual": 0.5,
+      "layout": 0.5563406898521763,
+      "ocr": 0.3638892623153037,
+      "font_gmm": 0.6626474857330322,
+      "noiseprint": 0.49718959454268946,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4846569001674652,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200416.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09427753891795873,
+      "visual": 0.3839326721429825,
+      "layout": 0.5367473593185854,
+      "ocr": 0.34551902681269153,
+      "font_gmm": 0.6313204765319824,
+      "noiseprint": 0.45135582697590404,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5647748708724976,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200416_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07816627807915211,
+      "visual": 0.1353948328644037,
+      "layout": 0.5405746039300664,
+      "ocr": 0.5382463653300853,
+      "font_gmm": 0.7675806879997253,
+      "noiseprint": 0.09015312159974437,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.6446675062179565,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200416_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09109718706458807,
+      "visual": 0.2923610582202673,
+      "layout": 0.557897959627739,
+      "ocr": 0.3789520758043997,
+      "font_gmm": 0.5774664878845215,
+      "noiseprint": 0.3028146180680354,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6161990761756897,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200427.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1004665896296501,
+      "visual": 0.4190634401142598,
+      "layout": 0.5777189912664736,
+      "ocr": 0.37431666835290167,
+      "font_gmm": 0.9391347169876099,
+      "noiseprint": 0.47863539192533133,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5709869861602783,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200427_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07578175980597734,
+      "visual": 0.14474608808755873,
+      "layout": 0.5950597588276804,
+      "ocr": 0.5407740411837624,
+      "font_gmm": 0.8015828132629395,
+      "noiseprint": 0.08732754590820682,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5565430521965027,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200427_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.06690370915457607,
+      "visual": 0.15180479682981968,
+      "layout": 0.587943881904487,
+      "ocr": 0.5439834124193995,
+      "font_gmm": 0.9289268851280212,
+      "noiseprint": 0.09652606543853029,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5744444727897644,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200438.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08642038572579622,
+      "visual": 0.5,
+      "layout": 0.5378389216705689,
+      "ocr": 0.3740546531693088,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.43898296512649687,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6474409103393555,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200438_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08616454266011714,
+      "visual": 0.5,
+      "layout": 0.5309678004919967,
+      "ocr": 0.3684988930739135,
+      "font_gmm": 0.7778328061103821,
+      "noiseprint": 0.2881014802225385,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6049586534500122,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200438_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0841141801327467,
+      "visual": 0.5,
+      "layout": 0.5765955948591717,
+      "ocr": 0.39995086446696837,
+      "font_gmm": 0.7138916254043579,
+      "noiseprint": 0.28946393999309944,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6277492642402649,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200450.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0846092851832509,
+      "visual": 0.5,
+      "layout": 0.5493588136078096,
+      "ocr": 0.3632948558991373,
+      "font_gmm": 0.9247807264328003,
+      "noiseprint": 0.4667526647939183,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5854292511940002,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200450_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09175690542906523,
+      "visual": 0.5,
+      "layout": 0.544718852963166,
+      "ocr": 0.3550784826264835,
+      "font_gmm": 0.8774934411048889,
+      "noiseprint": 0.47719022418582263,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5751524567604065,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200450_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08296444360166788,
+      "visual": 0.5,
+      "layout": 0.5510776366227287,
+      "ocr": 0.37640008489532845,
+      "font_gmm": 0.8947592377662659,
+      "noiseprint": 0.4656586024052509,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5715566277503967,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200459.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09079453330487013,
+      "visual": 0.5,
+      "layout": 0.5564260109114487,
+      "ocr": 0.36495459542372416,
+      "font_gmm": 0.8917675018310547,
+      "noiseprint": 0.45964137691124146,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5761967301368713,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200459_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10620697475969791,
+      "visual": 0.5,
+      "layout": 0.5625467341635401,
+      "ocr": 0.34823776847539467,
+      "font_gmm": 0.9148630499839783,
+      "noiseprint": 0.47508941397062643,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5740737915039062,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200459_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08206862155348062,
+      "visual": 0.5,
+      "layout": 0.559451802347392,
+      "ocr": 0.5551459737275717,
+      "font_gmm": 0.8280081152915955,
+      "noiseprint": 0.08513911321216143,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5887373685836792,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200507.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09862128738313913,
+      "visual": 0.4073524735867977,
+      "layout": 0.5868489881392225,
+      "ocr": 0.3995153372828967,
+      "font_gmm": 0.9280344843864441,
+      "noiseprint": 0.4777450900453402,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5677371025085449,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200507_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10352318733930586,
+      "visual": 0.30628229454159733,
+      "layout": 0.5751638153316219,
+      "ocr": 0.375348145984503,
+      "font_gmm": 0.780388593673706,
+      "noiseprint": 0.3159091521375762,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5275107622146606,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200507_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07590171545743941,
+      "visual": 0.44526293516159055,
+      "layout": 0.5694526327572852,
+      "ocr": 0.35485111502867894,
+      "font_gmm": 0.8645384907722473,
+      "noiseprint": 0.4668437159257035,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5509259104728699,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200515.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09220495186746121,
+      "visual": 0.41085710808634757,
+      "layout": 0.5518411958439536,
+      "ocr": 0.3856861425945225,
+      "font_gmm": 0.8920589089393616,
+      "noiseprint": 0.461221057234844,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5840296745300293,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200515_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09439066387712955,
+      "visual": 0.29623720712959767,
+      "layout": 0.5926994286783335,
+      "ocr": 0.4074149527893701,
+      "font_gmm": 0.7417777180671692,
+      "noiseprint": 0.30621838489306763,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5665146112442017,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200515_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08170714545994998,
+      "visual": 0.13735592082142828,
+      "layout": 0.5236867191765949,
+      "ocr": 0.5628583635580752,
+      "font_gmm": 0.7195422649383545,
+      "noiseprint": 0.0814932413999177,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5666890740394592,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200524.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09575739782303572,
+      "visual": 0.4038145804405212,
+      "layout": 0.5344927510625449,
+      "ocr": 0.3527651126130004,
+      "font_gmm": 0.9080157279968262,
+      "noiseprint": 0.45329601949704046,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6044809222221375,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200524_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08287118058651685,
+      "visual": 0.44114927932620046,
+      "layout": 0.5240312779102414,
+      "ocr": 0.37575681192100907,
+      "font_gmm": 0.8832342028617859,
+      "noiseprint": 0.44514032978352047,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.588380753993988,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200524_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07698954436928034,
+      "visual": 0.14859933394938707,
+      "layout": 0.5490996555454262,
+      "ocr": 0.5633193623710131,
+      "font_gmm": 0.8560157418251038,
+      "noiseprint": 0.08772593828760702,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5777469277381897,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200533.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09846961088478565,
+      "visual": 0.40546097576618195,
+      "layout": 0.5606315222359479,
+      "ocr": 0.38114138882977866,
+      "font_gmm": 0.9038201570510864,
+      "noiseprint": 0.47247135171435584,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5636926889419556,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200533_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08579978551715611,
+      "visual": 0.301897946447134,
+      "layout": 0.577328777999019,
+      "ocr": 0.4018037419872366,
+      "font_gmm": 0.8988380432128906,
+      "noiseprint": 0.3118706947073824,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.503553569316864,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200533_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07681421386078,
+      "visual": 0.14359852999448774,
+      "layout": 0.5560645646915857,
+      "ocr": 0.5503893944493373,
+      "font_gmm": 0.9116296172142029,
+      "noiseprint": 0.09300297563682904,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5401737689971924,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200606.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08988349679857492,
+      "visual": 0.4266165356338024,
+      "layout": 0.5673319328616349,
+      "ocr": 0.4016344392686157,
+      "font_gmm": 0.6148999333381653,
+      "noiseprint": 0.46683346332148656,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5846924185752869,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200606_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07366506857797503,
+      "visual": 0.14443501714617013,
+      "layout": 0.5696502027398769,
+      "ocr": 0.5553559555983398,
+      "font_gmm": 0.603285551071167,
+      "noiseprint": 0.08374817238110754,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5473891496658325,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200606_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.07232929058372975,
+      "visual": 0.1513992815092206,
+      "layout": 0.56328840589458,
+      "ocr": 0.5527795955017649,
+      "font_gmm": 0.6527830362319946,
+      "noiseprint": 0.08886924512735642,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.547493040561676,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200639.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10541911646723746,
+      "visual": 0.41040121063590046,
+      "layout": 0.5705773832569967,
+      "ocr": 0.36923820363996085,
+      "font_gmm": 0.9159841537475586,
+      "noiseprint": 0.4805975845295366,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.560260534286499,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200639_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09283233452588319,
+      "visual": 0.4359396897256374,
+      "layout": 0.5656862938615465,
+      "ocr": 0.35676370195191864,
+      "font_gmm": 0.9296344518661499,
+      "noiseprint": 0.49305170837671647,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5533043146133423,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200639_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09122678786516189,
+      "visual": 0.1391649804264307,
+      "layout": 0.5591126262326335,
+      "ocr": 0.5508483901877709,
+      "font_gmm": 0.7441282868385315,
+      "noiseprint": 0.08120471478846857,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5298922657966614,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200647.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09215649627149104,
+      "visual": 0.40557374477386476,
+      "layout": 0.5546533569917048,
+      "ocr": 0.35924097837616964,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.474893322497073,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5641900897026062,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200647_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10724921487271785,
+      "visual": 0.44040424779057497,
+      "layout": 0.5541917315725147,
+      "ocr": 0.36147064784927535,
+      "font_gmm": 0.8928751349449158,
+      "noiseprint": 0.4861254113331583,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.555240273475647,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200647_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0994604080915451,
+      "visual": 0.3038035561144352,
+      "layout": 0.5608762543174061,
+      "ocr": 0.3924745541059903,
+      "font_gmm": 0.831757664680481,
+      "noiseprint": 0.31701227452160646,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6139355897903442,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200707.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08468336053192616,
+      "visual": 0.5,
+      "layout": 0.5382520488290147,
+      "ocr": 0.3590707497039483,
+      "font_gmm": 0.887071967124939,
+      "noiseprint": 0.4470521350711415,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6357563138008118,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200707_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08997072307392953,
+      "visual": 0.5,
+      "layout": 0.5390811783759764,
+      "ocr": 0.3420490674997294,
+      "font_gmm": 0.9128662943840027,
+      "noiseprint": 0.4496503864149689,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6234697103500366,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\Screenshot 2026-04-19 200707_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08935453351587057,
+      "visual": 0.5,
+      "layout": 0.5826292832845247,
+      "ocr": 0.4222357650483388,
+      "font_gmm": 0.8358700275421143,
+      "noiseprint": 0.29542498611389667,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6464372277259827,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200146.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09513875283300877,
+      "visual": 0.4098351779580116,
+      "layout": 0.5863806329570009,
+      "ocr": 0.3571022824556841,
+      "font_gmm": 0.510786771774292,
+      "noiseprint": 0.48019431662095335,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.48580536246299744,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200332.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08548218291252851,
+      "visual": 0.37065646693110466,
+      "layout": 0.5368794138316272,
+      "ocr": 0.39046909627997,
+      "font_gmm": 0.6419820189476013,
+      "noiseprint": 0.43691223281792546,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5758615732192993,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200344.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1010665524750948,
+      "visual": 0.4074307003617287,
+      "layout": 0.5640015029634001,
+      "ocr": 0.38368862094767964,
+      "font_gmm": 0.5256909728050232,
+      "noiseprint": 0.4676885508337359,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5604905486106873,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200355.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09178155045956374,
+      "visual": 0.5,
+      "layout": 0.5796375900849644,
+      "ocr": 0.39735629335530476,
+      "font_gmm": 0.5981667041778564,
+      "noiseprint": 0.46556004756298974,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.581278383731842,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200407.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10290351118892431,
+      "visual": 0.5,
+      "layout": 0.5640288053546024,
+      "ocr": 0.37561596162030064,
+      "font_gmm": 0.6260558366775513,
+      "noiseprint": 0.48460220785813124,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4877520799636841,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200416.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09427753891795873,
+      "visual": 0.3839326721429825,
+      "layout": 0.5367473593185854,
+      "ocr": 0.34551902681269153,
+      "font_gmm": 0.6313204765319824,
+      "noiseprint": 0.45135582697590404,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5647748708724976,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200427.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1004665896296501,
+      "visual": 0.4190634401142598,
+      "layout": 0.5777189912664736,
+      "ocr": 0.37431666835290167,
+      "font_gmm": 0.9391347169876099,
+      "noiseprint": 0.47863539192533133,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5709869861602783,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200438.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08642038572579622,
+      "visual": 0.5,
+      "layout": 0.5378389216705689,
+      "ocr": 0.3740546531693088,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.43898296512649687,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6474409103393555,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200450.png",
+    "label": 0,
+    "features": {
+      "ela": 0.0846092851832509,
+      "visual": 0.5,
+      "layout": 0.5493588136078096,
+      "ocr": 0.3632948558991373,
+      "font_gmm": 0.9247807264328003,
+      "noiseprint": 0.4667526647939183,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5854292511940002,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200459.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09079453330487013,
+      "visual": 0.5,
+      "layout": 0.5564260109114487,
+      "ocr": 0.36495459542372416,
+      "font_gmm": 0.8917675018310547,
+      "noiseprint": 0.45964137691124146,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5761967301368713,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200507.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09862128738313913,
+      "visual": 0.4073524735867977,
+      "layout": 0.5868489881392225,
+      "ocr": 0.3995153372828967,
+      "font_gmm": 0.9280344843864441,
+      "noiseprint": 0.4777450900453402,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5677371025085449,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200515.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09220495186746121,
+      "visual": 0.41085710808634757,
+      "layout": 0.5518411958439536,
+      "ocr": 0.3856861425945225,
+      "font_gmm": 0.8920589089393616,
+      "noiseprint": 0.461221057234844,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5840296745300293,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200524.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09575739782303572,
+      "visual": 0.4038145804405212,
+      "layout": 0.5344927510625449,
+      "ocr": 0.3527651126130004,
+      "font_gmm": 0.9080157279968262,
+      "noiseprint": 0.45329601949704046,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6044809222221375,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200533.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09846961088478565,
+      "visual": 0.40546097576618195,
+      "layout": 0.5606315222359479,
+      "ocr": 0.38114138882977866,
+      "font_gmm": 0.9038201570510864,
+      "noiseprint": 0.47247135171435584,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5636926889419556,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200606.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08988349679857492,
+      "visual": 0.4266165356338024,
+      "layout": 0.5673319328616349,
+      "ocr": 0.4016344392686157,
+      "font_gmm": 0.6148999333381653,
+      "noiseprint": 0.46683346332148656,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5846924185752869,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200639.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10541911646723746,
+      "visual": 0.41040121063590046,
+      "layout": 0.5705773832569967,
+      "ocr": 0.36923820363996085,
+      "font_gmm": 0.9159841537475586,
+      "noiseprint": 0.4805975845295366,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.560260534286499,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200647.png",
+    "label": 0,
+    "features": {
+      "ela": 0.09215649627149104,
+      "visual": 0.40557374477386476,
+      "layout": 0.5546533569917048,
+      "ocr": 0.35924097837616964,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.474893322497073,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5641900897026062,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_Screenshot 2026-04-19 200707.png",
+    "label": 0,
+    "features": {
+      "ela": 0.08468336053192616,
+      "visual": 0.5,
+      "layout": 0.5382520488290147,
+      "ocr": 0.3590707497039483,
+      "font_gmm": 0.887071967124939,
+      "noiseprint": 0.4470521350711415,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6357563138008118,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-1.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1432219583541155,
+      "visual": 0.4999317697435617,
+      "layout": 0.5472093763351638,
+      "ocr": 0.4250638735582094,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4732102545625564,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30050721764564514,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-10.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.10725047178566456,
+      "visual": 0.6109630784392356,
+      "layout": 0.44555358621996966,
+      "ocr": 0.5708995691722021,
+      "font_gmm": 0.25,
+      "noiseprint": 0.61049998231662,
+      "copy_move": 0.15,
+      "semantic": 0.1875,
+      "offline_llm": 0.2,
+      "texture": 0.2465163916349411,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-2.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1619023121893406,
+      "visual": 0.5,
+      "layout": 0.5664992747872838,
+      "ocr": 0.4416365972118175,
+      "font_gmm": 0.25,
+      "noiseprint": 0.6981129871194688,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.25335103273391724,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-3.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.12642528042197226,
+      "visual": 0.5,
+      "layout": 0.5165543521586973,
+      "ocr": 0.44552311188043087,
+      "font_gmm": 0.3415663540363312,
+      "noiseprint": 0.5563938561657443,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4559210240840912,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-4.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.13952284418046473,
+      "visual": 0.21528725691139694,
+      "layout": 0.476161700271975,
+      "ocr": 0.3779549832174174,
+      "font_gmm": 0.25,
+      "noiseprint": 0.18356957175624933,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5385663509368896,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-5.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1259330827742815,
+      "visual": 0.5019157484173774,
+      "layout": 0.5117429088444126,
+      "ocr": 0.4808549173820936,
+      "font_gmm": 0.48730170726776123,
+      "noiseprint": 0.41261733671442086,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.32674768567085266,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-6.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.18542754873633382,
+      "visual": 0.41520223185420035,
+      "layout": 0.5711640206002535,
+      "ocr": 0.4285943489520254,
+      "font_gmm": 0.8504190444946289,
+      "noiseprint": 0.3552337363664049,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30824291706085205,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-7.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.10804403703659772,
+      "visual": 0.5,
+      "layout": 0.5859805425206742,
+      "ocr": 0.41554308409601254,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3553983999399039,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33656489849090576,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-8.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1691728167235851,
+      "visual": 0.704391087591648,
+      "layout": 0.7108602408392094,
+      "ocr": 0.40362007390904187,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.20833605527877808,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\external_forged_dataset_ms-9.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1230303918942809,
+      "visual": 0.7023833855986594,
+      "layout": 0.5990866498495466,
+      "ocr": 0.3017323395680145,
+      "font_gmm": 0.14975370466709137,
+      "noiseprint": 0.7794230490113517,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.3354203402996063,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-1.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1432219583541155,
+      "visual": 0.4999317697435617,
+      "layout": 0.5472093763351638,
+      "ocr": 0.4250638735582094,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4732102545625564,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30050721764564514,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-10.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.10725047178566456,
+      "visual": 0.6109630784392356,
+      "layout": 0.44555358621996966,
+      "ocr": 0.5708995691722021,
+      "font_gmm": 0.25,
+      "noiseprint": 0.61049998231662,
+      "copy_move": 0.15,
+      "semantic": 0.1875,
+      "offline_llm": 0.2,
+      "texture": 0.2465163916349411,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-10_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1938710756599903,
+      "visual": 0.4393300449848174,
+      "layout": 0.4357090943853257,
+      "ocr": 0.5103181823620452,
+      "font_gmm": 0.4904033839702606,
+      "noiseprint": 0.42700339458509906,
+      "copy_move": 0.15,
+      "semantic": 0.0625,
+      "offline_llm": 0.2,
+      "texture": 0.28607451915740967,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-10_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.20278108790516852,
+      "visual": 0.2363702835142612,
+      "layout": 0.25,
+      "ocr": 0.2,
+      "font_gmm": 0.25,
+      "noiseprint": 0.16089469361869776,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.15,
+      "texture": 0.2738066613674164,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-1_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1574106153100729,
+      "visual": 0.5551264894753694,
+      "layout": 0.5270207704018969,
+      "ocr": 0.4130697336651261,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5298762370320516,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.2923447787761688,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-1_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10479177813977003,
+      "visual": 0.4933254614472389,
+      "layout": 0.532357642780574,
+      "ocr": 0.4341315087919689,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4320126798880127,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3262670934200287,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-2.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1619023121893406,
+      "visual": 0.5,
+      "layout": 0.5664992747872838,
+      "ocr": 0.4416365972118175,
+      "font_gmm": 0.25,
+      "noiseprint": 0.6981129871194688,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.25335103273391724,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-2_genuine_aug_0_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.18829292356967925,
+      "visual": 0.5,
+      "layout": 0.5496782463104787,
+      "ocr": 0.4476506542441615,
+      "font_gmm": 0.25,
+      "noiseprint": 0.49224524446143847,
+      "copy_move": 0.15,
+      "semantic": 0.35,
+      "offline_llm": 0.2,
+      "texture": 0.2617848217487335,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-2_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.19961872920393944,
+      "visual": 0.5,
+      "layout": 0.5126494658859351,
+      "ocr": 0.5076819915427639,
+      "font_gmm": 0.25,
+      "noiseprint": 0.18684839262924813,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.24537216126918793,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-3.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.12642528042197226,
+      "visual": 0.5,
+      "layout": 0.5165543521586973,
+      "ocr": 0.44552311188043087,
+      "font_gmm": 0.3415663540363312,
+      "noiseprint": 0.5563938561657443,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4559210240840912,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-3_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1626277722418308,
+      "visual": 0.5,
+      "layout": 0.48139934924530414,
+      "ocr": 0.5140116164177865,
+      "font_gmm": 0.4192901849746704,
+      "noiseprint": 0.1053391698652941,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4660136103630066,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-3_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10615398325026035,
+      "visual": 0.5,
+      "layout": 0.5885956735589586,
+      "ocr": 0.49132561986469264,
+      "font_gmm": 0.5315849184989929,
+      "noiseprint": 0.3821447905591254,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.505962073802948,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-4.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.13952284418046473,
+      "visual": 0.21528725691139694,
+      "layout": 0.476161700271975,
+      "ocr": 0.3779549832174174,
+      "font_gmm": 0.25,
+      "noiseprint": 0.18356957175624933,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5385663509368896,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-4_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10616864338517189,
+      "visual": 0.22399781636893748,
+      "layout": 0.4804875282508271,
+      "ocr": 0.41693895827977157,
+      "font_gmm": 0.25,
+      "noiseprint": 0.18144531733885216,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5504388809204102,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-4_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.14197846055030822,
+      "visual": 0.10305917058140039,
+      "layout": 0.4275596181182011,
+      "ocr": 0.46700647244134597,
+      "font_gmm": 0.25,
+      "noiseprint": 0.055217397712345795,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5452239513397217,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-5.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1259330827742815,
+      "visual": 0.5019157484173774,
+      "layout": 0.5117429088444126,
+      "ocr": 0.4808549173820936,
+      "font_gmm": 0.48730170726776123,
+      "noiseprint": 0.41261733671442086,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.32674768567085266,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-5_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.20111479014158248,
+      "visual": 0.23650580972433088,
+      "layout": 0.5119236715028381,
+      "ocr": 0.4974476077998403,
+      "font_gmm": 0.0,
+      "noiseprint": 0.1395450303778416,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.29249992966651917,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-5_genuine_aug_1_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.11930115185678004,
+      "visual": 0.5360043141245842,
+      "layout": 0.5102454402229606,
+      "ocr": 0.4835447139870015,
+      "font_gmm": 0.4878636300563812,
+      "noiseprint": 0.4526772779671153,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3147468566894531,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-6.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.18542754873633382,
+      "visual": 0.41520223185420035,
+      "layout": 0.5711640206002535,
+      "ocr": 0.4285943489520254,
+      "font_gmm": 0.8504190444946289,
+      "noiseprint": 0.3552337363664049,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30824291706085205,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-6_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.18093995563685894,
+      "visual": 0.4228650540113449,
+      "layout": 0.5304221892849296,
+      "ocr": 0.38249394332051173,
+      "font_gmm": 0.8775103688240051,
+      "noiseprint": 0.343057034041462,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3299187123775482,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-6_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.27655180767178533,
+      "visual": 0.16504015631973742,
+      "layout": 0.4279363776309232,
+      "ocr": 0.4630975323123694,
+      "font_gmm": 0.5694993734359741,
+      "noiseprint": 0.08254434419783224,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.30730998516082764,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-7.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.10804403703659772,
+      "visual": 0.5,
+      "layout": 0.5859805425206742,
+      "ocr": 0.41554308409601254,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3553983999399039,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33656489849090576,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-7_genuine_aug_0_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.1849007371813059,
+      "visual": 0.5,
+      "layout": 0.5684484687364245,
+      "ocr": 0.4308206396524672,
+      "font_gmm": 0.25,
+      "noiseprint": 0.11372712774591132,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3569587469100952,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-7_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.21085945591330527,
+      "visual": 0.5,
+      "layout": 0.5687395772123331,
+      "ocr": 0.42534111556789217,
+      "font_gmm": 0.25,
+      "noiseprint": 0.10349424995170844,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.34734588861465454,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-8.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1691728167235851,
+      "visual": 0.704391087591648,
+      "layout": 0.7108602408392094,
+      "ocr": 0.40362007390904187,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.20833605527877808,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-8_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.14170397594571113,
+      "visual": 0.7037396624684333,
+      "layout": 0.7038615622193487,
+      "ocr": 0.4068991216564809,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.20204965770244598,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-8_genuine_aug_1_perspective_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.17447608448565005,
+      "visual": 0.7041199542582035,
+      "layout": 0.6986836653566804,
+      "ocr": 0.40266586594083187,
+      "font_gmm": 0.25,
+      "noiseprint": 0.8710941264820733,
+      "copy_move": 0.15,
+      "semantic": 0.0625,
+      "offline_llm": 0.2,
+      "texture": 0.22666403651237488,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-9.jpg",
+    "label": 0,
+    "features": {
+      "ela": 0.1230303918942809,
+      "visual": 0.7023833855986594,
+      "layout": 0.5990866498495466,
+      "ocr": 0.3017323395680145,
+      "font_gmm": 0.14975370466709137,
+      "noiseprint": 0.7794230490113517,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.3354203402996063,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-9_genuine_aug_0_jpeg_recompression_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.10956515073776245,
+      "visual": 0.7024053737521171,
+      "layout": 0.7019964621531738,
+      "ocr": 0.3806814424446261,
+      "font_gmm": 0.21245236694812775,
+      "noiseprint": 0.7685958468523787,
+      "copy_move": 0.15,
+      "semantic": 0.0625,
+      "offline_llm": 0.2,
+      "texture": 0.33536824584007263,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\genuine\\ms-9_genuine_aug_1_blur_and_scan_genuine.png",
+    "label": 0,
+    "features": {
+      "ela": 0.17697426155209542,
+      "visual": 0.35184988915920257,
+      "layout": 0.6479056870470404,
+      "ocr": 0.4137828559320593,
+      "font_gmm": 0.31873565912246704,
+      "noiseprint": 0.2420451351432082,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.32403698563575745,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200146_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09221445713192225,
+      "visual": 0.4024336399137974,
+      "layout": 0.5845990833537955,
+      "ocr": 0.35582418713713443,
+      "font_gmm": 0.4059706926345825,
+      "noiseprint": 0.47080171119614345,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4916428327560425,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200146_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05926772337406873,
+      "visual": 0.5374214254319667,
+      "layout": 0.5780512181825296,
+      "ocr": 0.5217960375778294,
+      "font_gmm": 0.6160191893577576,
+      "noiseprint": 0.47982847560355946,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.3419383466243744,
+      "text_perp": 0.52
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200146_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09501952361315488,
+      "visual": 0.4233615010976791,
+      "layout": 0.5855280302480678,
+      "ocr": 0.3577979107102254,
+      "font_gmm": 0.4897778630256653,
+      "noiseprint": 0.5047988011141076,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.4874235689640045,
+      "text_perp": 0.6000000000000001
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200146_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09261830952018499,
+      "visual": 0.407748280018568,
+      "layout": 0.5895233031078089,
+      "ocr": 0.370804685518583,
+      "font_gmm": 0.4907808303833008,
+      "noiseprint": 0.4733327965411941,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.487242728471756,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200332_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08391338232904673,
+      "visual": 0.3046736850589513,
+      "layout": 0.5183657128950534,
+      "ocr": 0.3917534273992182,
+      "font_gmm": 0.874009907245636,
+      "noiseprint": 0.3248793341392016,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6486474275588989,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200332_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09955105055123567,
+      "visual": 0.37998559847474095,
+      "layout": 0.4994254698142795,
+      "ocr": 0.3811866535375168,
+      "font_gmm": 0.8991326093673706,
+      "noiseprint": 0.4446650977313395,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5260242819786072,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200332_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08823545631021261,
+      "visual": 0.3732102826237678,
+      "layout": 0.531645508345856,
+      "ocr": 0.39010199533468615,
+      "font_gmm": 0.6363611221313477,
+      "noiseprint": 0.43981059741840406,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5674704313278198,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200332_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08548976685851813,
+      "visual": 0.36977378875017164,
+      "layout": 0.5287737644143946,
+      "ocr": 0.3811775224322601,
+      "font_gmm": 0.6309108734130859,
+      "noiseprint": 0.43654252500699925,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5755237936973572,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200344_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10128256417810917,
+      "visual": 0.409352026283741,
+      "layout": 0.5663037775009502,
+      "ocr": 0.40171517851793237,
+      "font_gmm": 0.6048260927200317,
+      "noiseprint": 0.4696372031835992,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5620315670967102,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200344_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09100283458828926,
+      "visual": 0.33311594188213345,
+      "layout": 0.5349731571526837,
+      "ocr": 0.3507882137270626,
+      "font_gmm": 0.8519512414932251,
+      "noiseprint": 0.33746254788096575,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5524701476097107,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200344_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08406006898730993,
+      "visual": 0.5,
+      "layout": 0.5462418329633477,
+      "ocr": 0.3859028373558485,
+      "font_gmm": 0.9074355363845825,
+      "noiseprint": 0.4257877598786258,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5832009315490723,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200344_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10094764046370983,
+      "visual": 0.42090379491448404,
+      "layout": 0.5675088438355493,
+      "ocr": 0.38846580204736636,
+      "font_gmm": 0.5347089171409607,
+      "noiseprint": 0.48958722803615373,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5407168865203857,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200355_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07680111508816481,
+      "visual": 0.46872258320450777,
+      "layout": 0.5549953061971861,
+      "ocr": 0.463998363202527,
+      "font_gmm": 0.5149105191230774,
+      "noiseprint": 0.46824739175605345,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3651984632015228,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200355_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.050469376146793365,
+      "visual": 0.490326923802495,
+      "layout": 0.5220153290695402,
+      "ocr": 0.4848119079731346,
+      "font_gmm": 0.4956774413585663,
+      "noiseprint": 0.5264091726783396,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3105015456676483,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200355_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09060222581028939,
+      "visual": 0.3484501615166664,
+      "layout": 0.5854802603864491,
+      "ocr": 0.4031929657744968,
+      "font_gmm": 0.5216084122657776,
+      "noiseprint": 0.38027995825696015,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5011910796165466,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200355_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09198843091726303,
+      "visual": 0.5,
+      "layout": 0.5869337205331352,
+      "ocr": 0.39835116956054284,
+      "font_gmm": 0.5168622732162476,
+      "noiseprint": 0.4646675500303088,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5767006874084473,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200407_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09600608125329016,
+      "visual": 0.5,
+      "layout": 0.5457957821492471,
+      "ocr": 0.3628641305024982,
+      "font_gmm": 0.6309456825256348,
+      "noiseprint": 0.4601305758347035,
+      "copy_move": 0.15,
+      "semantic": 0.12916666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5160580277442932,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200407_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10304379723966121,
+      "visual": 0.5,
+      "layout": 0.5597292819400239,
+      "ocr": 0.3728258531215762,
+      "font_gmm": 0.6306115984916687,
+      "noiseprint": 0.5039100763111105,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5033307671546936,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200407_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10291683878749609,
+      "visual": 0.5,
+      "layout": 0.5630400554360083,
+      "ocr": 0.37288822264746746,
+      "font_gmm": 0.634243905544281,
+      "noiseprint": 0.506171161328958,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.503332793712616,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200407_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09914321191608905,
+      "visual": 0.5,
+      "layout": 0.5528546643349943,
+      "ocr": 0.3797415622525905,
+      "font_gmm": 0.5870963931083679,
+      "noiseprint": 0.46941909937808857,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5080745816230774,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200416_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08870750721544027,
+      "visual": 0.3804378233850002,
+      "layout": 0.5439686965104533,
+      "ocr": 0.36103292398898634,
+      "font_gmm": 0.6184163689613342,
+      "noiseprint": 0.4444801914501908,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5710510015487671,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200416_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09843973312526941,
+      "visual": 0.3953252114355564,
+      "layout": 0.5523601338671862,
+      "ocr": 0.35872529282443455,
+      "font_gmm": 0.6264371275901794,
+      "noiseprint": 0.4668278790413627,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5450755953788757,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200416_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09284906703978776,
+      "visual": 0.31898021817207334,
+      "layout": 0.542547864232245,
+      "ocr": 0.3694870652726632,
+      "font_gmm": 0.8738589882850647,
+      "noiseprint": 0.3356355439088097,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5167919397354126,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200416_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09757427219301462,
+      "visual": 0.3887953186035156,
+      "layout": 0.5442482134461725,
+      "ocr": 0.35597503245686823,
+      "font_gmm": 0.6407467722892761,
+      "noiseprint": 0.4573400973778795,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5603315234184265,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200427_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09956871923059224,
+      "visual": 0.4251470856368541,
+      "layout": 0.5777189912664736,
+      "ocr": 0.37431666835290167,
+      "font_gmm": 0.9565508365631104,
+      "noiseprint": 0.4857498392975101,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5637400150299072,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200427_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08785098139196634,
+      "visual": 0.5,
+      "layout": 0.6019581764337034,
+      "ocr": 0.40061310599925604,
+      "font_gmm": 0.9178436398506165,
+      "noiseprint": 0.4745979407398546,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5765754580497742,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200427_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10062533672899007,
+      "visual": 0.41799831241369245,
+      "layout": 0.5777189912664736,
+      "ocr": 0.37431666835290167,
+      "font_gmm": 0.9391347169876099,
+      "noiseprint": 0.4788351191578645,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5691043734550476,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200427_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09750927221029997,
+      "visual": 0.4128570909798145,
+      "layout": 0.5885444872018492,
+      "ocr": 0.3773519335747533,
+      "font_gmm": 0.8853111863136292,
+      "noiseprint": 0.471420394164782,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5670276284217834,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200438_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08586860150098802,
+      "visual": 0.344077108502388,
+      "layout": 0.5009899920184586,
+      "ocr": 0.3761381907113903,
+      "font_gmm": 0.8902493715286255,
+      "noiseprint": 0.390276858341538,
+      "copy_move": 0.15,
+      "semantic": 0.25416666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.6526773571968079,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200438_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08647406175732612,
+      "visual": 0.5,
+      "layout": 0.5364430781760416,
+      "ocr": 0.3757003480702007,
+      "font_gmm": 0.9206153154373169,
+      "noiseprint": 0.4597272637807267,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6267266273498535,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200438_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08381865993142128,
+      "visual": 0.5,
+      "layout": 0.5434666638160325,
+      "ocr": 0.3836143736388202,
+      "font_gmm": 0.9292213916778564,
+      "noiseprint": 0.45648605293751837,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6265836358070374,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200438_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08711877465248108,
+      "visual": 0.5,
+      "layout": 0.5321516444265043,
+      "ocr": 0.37502006072957256,
+      "font_gmm": 0.9348819851875305,
+      "noiseprint": 0.44544125241407945,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6085862517356873,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200450_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0846939168870449,
+      "visual": 0.5,
+      "layout": 0.5487955402821199,
+      "ocr": 0.36168852642082483,
+      "font_gmm": 0.9309775829315186,
+      "noiseprint": 0.4837804121336661,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5745656490325928,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200450_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08158594984561204,
+      "visual": 0.5,
+      "layout": 0.5483397980413298,
+      "ocr": 0.3625110862227779,
+      "font_gmm": 0.9309775829315186,
+      "noiseprint": 0.48457583986462355,
+      "copy_move": 0.15,
+      "semantic": 0.06666666666666667,
+      "offline_llm": 0.2,
+      "texture": 0.5940207242965698,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200450_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0846092851832509,
+      "visual": 0.5,
+      "layout": 0.5493588136078096,
+      "ocr": 0.3632948558991373,
+      "font_gmm": 0.9247807264328003,
+      "noiseprint": 0.4667526647939183,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5854292511940002,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200450_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09213761407881975,
+      "visual": 0.39738047957420347,
+      "layout": 0.5678625984448794,
+      "ocr": 0.40180968224165603,
+      "font_gmm": 0.892814040184021,
+      "noiseprint": 0.4431911280244013,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5735175609588623,
+      "text_perp": 0.44
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200459_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09107756316661834,
+      "visual": 0.5,
+      "layout": 0.5699216544279786,
+      "ocr": 0.36939577828184206,
+      "font_gmm": 0.8958744406700134,
+      "noiseprint": 0.4614130533764095,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5720369815826416,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200459_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0929946882650256,
+      "visual": 0.5,
+      "layout": 0.57913500143255,
+      "ocr": 0.39689309260736105,
+      "font_gmm": 0.9417105317115784,
+      "noiseprint": 0.47515878306484005,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5722370147705078,
+      "text_perp": 0.64
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200459_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09101713858544827,
+      "visual": 0.5,
+      "layout": 0.5607103689849589,
+      "ocr": 0.373710265945799,
+      "font_gmm": 0.8920589089393616,
+      "noiseprint": 0.46236975563779753,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5768951773643494,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200459_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07823247238993644,
+      "visual": 0.4841725420206785,
+      "layout": 0.5353195704430439,
+      "ocr": 0.5313128405452863,
+      "font_gmm": 0.46639442443847656,
+      "noiseprint": 0.5219161808287092,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3375784158706665,
+      "text_perp": 0.72
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200507_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09566556066274642,
+      "visual": 0.42112808376550676,
+      "layout": 0.5891224216211177,
+      "ocr": 0.4101810328832586,
+      "font_gmm": 0.9100260138511658,
+      "noiseprint": 0.4937633312155213,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5628097653388977,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200507_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09429912753403186,
+      "visual": 0.34051913663744926,
+      "layout": 0.5793348813776376,
+      "ocr": 0.3457882382474886,
+      "font_gmm": 0.8463782072067261,
+      "noiseprint": 0.3813221314186841,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5704108476638794,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200507_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09875551015138626,
+      "visual": 0.42201881766319277,
+      "layout": 0.5838073426649902,
+      "ocr": 0.40458553321810414,
+      "font_gmm": 0.8885260224342346,
+      "noiseprint": 0.500757888829256,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5627043843269348,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200507_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09213200602680445,
+      "visual": 0.4259622910618782,
+      "layout": 0.5913016683356013,
+      "ocr": 0.38317641825399174,
+      "font_gmm": 0.9296882748603821,
+      "noiseprint": 0.49470516901338896,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5824652910232544,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200515_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09256548210978507,
+      "visual": 0.34336156234145165,
+      "layout": 0.5468071160244619,
+      "ocr": 0.3862801111928598,
+      "font_gmm": 0.9202142357826233,
+      "noiseprint": 0.3733120115634527,
+      "copy_move": 0.15,
+      "semantic": 0.19166666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.6196585297584534,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200515_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06941026533022523,
+      "visual": 0.5,
+      "layout": 0.6027793029313234,
+      "ocr": 0.5325402337852578,
+      "font_gmm": 0.8247050046920776,
+      "noiseprint": 0.5273220876272916,
+      "copy_move": 0.15,
+      "semantic": 0.41666666666666663,
+      "offline_llm": 0.2,
+      "texture": 0.4503287374973297,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200515_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09223117604851723,
+      "visual": 0.4344371639192104,
+      "layout": 0.5418759259287015,
+      "ocr": 0.3744588776566967,
+      "font_gmm": 0.6948958039283752,
+      "noiseprint": 0.48879314190794326,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5743973255157471,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200515_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07833464769646525,
+      "visual": 0.346023645401001,
+      "layout": 0.5473254362688932,
+      "ocr": 0.4065663324860045,
+      "font_gmm": 0.6135625839233398,
+      "noiseprint": 0.36577909176461265,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6254424452781677,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200524_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09632122498005628,
+      "visual": 0.40132202491164204,
+      "layout": 0.5388734099505688,
+      "ocr": 0.3597153350533298,
+      "font_gmm": 0.8860299587249756,
+      "noiseprint": 0.45312746171380813,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5990314483642578,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200524_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09623825196176768,
+      "visual": 0.41056363791227335,
+      "layout": 0.5691533948703155,
+      "ocr": 0.407235895426563,
+      "font_gmm": 0.9131125807762146,
+      "noiseprint": 0.45606059873171545,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5872714519500732,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200524_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09593803714960814,
+      "visual": 0.40519908398389815,
+      "layout": 0.5430229080855565,
+      "ocr": 0.35866818444032067,
+      "font_gmm": 0.9168055057525635,
+      "noiseprint": 0.45531839759829806,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5989973545074463,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200524_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09570858888328075,
+      "visual": 0.4021808865666389,
+      "layout": 0.5350295074089554,
+      "ocr": 0.3613600822268258,
+      "font_gmm": 0.9080157279968262,
+      "noiseprint": 0.452611322655335,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6059955954551697,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200533_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09972799196839333,
+      "visual": 0.42068019852042193,
+      "layout": 0.5706379406816038,
+      "ocr": 0.4753339904845724,
+      "font_gmm": 0.320220947265625,
+      "noiseprint": 0.40624029060533684,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.37151071429252625,
+      "text_perp": 0.44
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200533_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09525989461690186,
+      "visual": 0.412773619145155,
+      "layout": 0.5693484746579066,
+      "ocr": 0.396413977107635,
+      "font_gmm": 0.8818537592887878,
+      "noiseprint": 0.4947827139886671,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5618892908096313,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200533_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09578699339181183,
+      "visual": 0.4242468355596065,
+      "layout": 0.5551074115620205,
+      "ocr": 0.38313812782453127,
+      "font_gmm": 0.8996664881706238,
+      "noiseprint": 0.48828987187478373,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5628150105476379,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200533_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09646159578114748,
+      "visual": 0.40625509694218637,
+      "layout": 0.5464944176307774,
+      "ocr": 0.36326233493658106,
+      "font_gmm": 0.8976578712463379,
+      "noiseprint": 0.47253283395679263,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5595216751098633,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200606_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06866939198225737,
+      "visual": 0.42875745534896853,
+      "layout": 0.579174919194948,
+      "ocr": 0.40161334882125754,
+      "font_gmm": 0.5565292835235596,
+      "noiseprint": 0.4691720769774488,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.570688009262085,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200606_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0905453147366643,
+      "visual": 0.44011502295732496,
+      "layout": 0.5709260833799048,
+      "ocr": 0.40963422557540985,
+      "font_gmm": 0.6216918230056763,
+      "noiseprint": 0.47639660179918514,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5661320686340332,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200606_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08683285415172577,
+      "visual": 0.39699116185307504,
+      "layout": 0.5851534170618607,
+      "ocr": 0.4114577623925525,
+      "font_gmm": 0.6268967390060425,
+      "noiseprint": 0.4434423151778945,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5893504023551941,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200606_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09563447441905737,
+      "visual": 0.37337661668658256,
+      "layout": 0.5321170406388119,
+      "ocr": 0.37940628334285215,
+      "font_gmm": 0.9398937225341797,
+      "noiseprint": 0.40809132164445816,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.563545823097229,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200639_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1054959850385785,
+      "visual": 0.4256251803040504,
+      "layout": 0.5720119685891483,
+      "ocr": 0.37535902182054126,
+      "font_gmm": 0.9479851126670837,
+      "noiseprint": 0.4985396015946265,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.550967812538147,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200639_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09726818595081568,
+      "visual": 0.36782291039824483,
+      "layout": 0.5835905769924237,
+      "ocr": 0.41585240482359875,
+      "font_gmm": 0.6436961889266968,
+      "noiseprint": 0.417415637584301,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5701081156730652,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200639_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.097191290743649,
+      "visual": 0.37394065290689465,
+      "layout": 0.6131943100524662,
+      "ocr": 0.4201766298511743,
+      "font_gmm": 0.9623399972915649,
+      "noiseprint": 0.4324760819511351,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.6048685312271118,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200639_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10133022293448449,
+      "visual": 0.4147777006030082,
+      "layout": 0.5788557151719629,
+      "ocr": 0.376444731956921,
+      "font_gmm": 0.9041322469711304,
+      "noiseprint": 0.49973202767708713,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5559414625167847,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200647_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08938398361206054,
+      "visual": 0.4129455325007439,
+      "layout": 0.5408791243828861,
+      "ocr": 0.358072405705395,
+      "font_gmm": 0.894729495048523,
+      "noiseprint": 0.4933438416322177,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5562950372695923,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200647_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08634479623287916,
+      "visual": 0.41202387318015093,
+      "layout": 0.5586351586761167,
+      "ocr": 0.3646652972685744,
+      "font_gmm": 0.909554123878479,
+      "noiseprint": 0.49191462308719264,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5878890752792358,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200647_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09405498299747705,
+      "visual": 0.3293867042660713,
+      "layout": 0.5765871151654937,
+      "ocr": 0.3898880655777981,
+      "font_gmm": 0.6259485483169556,
+      "noiseprint": 0.35335032975193,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5825117826461792,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200647_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08934863060712814,
+      "visual": 0.4191256780922413,
+      "layout": 0.5523836413565895,
+      "ocr": 0.3583000005745433,
+      "font_gmm": 0.9208924770355225,
+      "noiseprint": 0.4974278292077583,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5435417890548706,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200707_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07187210330739617,
+      "visual": 0.48296241447329513,
+      "layout": 0.501278464524748,
+      "ocr": 0.5300738058333306,
+      "font_gmm": 0.5253269672393799,
+      "noiseprint": 0.5035528109574969,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.33547350764274597,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200707_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.058239590749144546,
+      "visual": 0.5262206801772118,
+      "layout": 0.5397954920515955,
+      "ocr": 0.4867380884248588,
+      "font_gmm": 0.5216173529624939,
+      "noiseprint": 0.4602524787750589,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.341573029756546,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200707_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08432329744100571,
+      "visual": 0.5,
+      "layout": 0.5406363028748341,
+      "ocr": 0.365516216687229,
+      "font_gmm": 0.927457332611084,
+      "noiseprint": 0.463017553381046,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6465620398521423,
+      "text_perp": 0.64
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\Screenshot 2026-04-19 200707_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08490337003022433,
+      "visual": 0.5,
+      "layout": 0.548525188606289,
+      "ocr": 0.3710593471941245,
+      "font_gmm": 0.9262539148330688,
+      "noiseprint": 0.44620356638304226,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6386229991912842,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200146_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09555275831371546,
+      "visual": 0.41311361670494073,
+      "layout": 0.5820794924664894,
+      "ocr": 0.35603132851417607,
+      "font_gmm": 0.4726404845714569,
+      "noiseprint": 0.48296916168900195,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.47727763652801514,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200146_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0866133902221918,
+      "visual": 0.41249511688947677,
+      "layout": 0.5901825280631028,
+      "ocr": 0.43379976583593294,
+      "font_gmm": 0.40463072061538696,
+      "noiseprint": 0.4426615042378733,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4133116602897644,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200146_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09234402757138013,
+      "visual": 0.5,
+      "layout": 0.5428169273001581,
+      "ocr": 0.3551703954365992,
+      "font_gmm": 0.8955830931663513,
+      "noiseprint": 0.3531941575270433,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5725803375244141,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200332_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06327675795182586,
+      "visual": 0.21914567627012727,
+      "layout": 0.3878153497073193,
+      "ocr": 0.3309393871598488,
+      "font_gmm": 0.4430955648422241,
+      "noiseprint": 0.20652474296533294,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.6425326466560364,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200332_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08555174842476845,
+      "visual": 0.3773155134916305,
+      "layout": 0.540164274153535,
+      "ocr": 0.39280794093661414,
+      "font_gmm": 0.6631477475166321,
+      "noiseprint": 0.4493729303567435,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5451019406318665,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200332_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0854036919772625,
+      "visual": 0.3704359921813011,
+      "layout": 0.5368794138316272,
+      "ocr": 0.39046909627997,
+      "font_gmm": 0.6264529228210449,
+      "noiseprint": 0.4365572850743783,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5771521329879761,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200344_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10086046624928713,
+      "visual": 0.40501283049583436,
+      "layout": 0.5459989973497738,
+      "ocr": 0.37042575352717155,
+      "font_gmm": 0.5650060176849365,
+      "noiseprint": 0.4657328613942059,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5643698573112488,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200344_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08952551167458295,
+      "visual": 0.3590697306394577,
+      "layout": 0.5232395647497511,
+      "ocr": 0.3616308316855962,
+      "font_gmm": 0.8756506443023682,
+      "noiseprint": 0.40666458319400145,
+      "copy_move": 0.15,
+      "semantic": 0.25416666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5695337653160095,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200344_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10115108247846365,
+      "visual": 0.4186751671135426,
+      "layout": 0.5642287738548598,
+      "ocr": 0.38383703571395233,
+      "font_gmm": 0.5256909728050232,
+      "noiseprint": 0.4819723747136535,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5361276865005493,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200355_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0950828444212675,
+      "visual": 0.5,
+      "layout": 0.5966506957903038,
+      "ocr": 0.40103410795087513,
+      "font_gmm": 0.5325871706008911,
+      "noiseprint": 0.4737266983422389,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5687964558601379,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200355_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08441415466368199,
+      "visual": 0.5,
+      "layout": 0.5325609883159608,
+      "ocr": 0.36245551813433197,
+      "font_gmm": 0.470112681388855,
+      "noiseprint": 0.40695347890346667,
+      "copy_move": 0.15,
+      "semantic": 0.19166666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5860359072685242,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200355_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1014489822089672,
+      "visual": 0.5,
+      "layout": 0.5808085970860535,
+      "ocr": 0.40039591818259507,
+      "font_gmm": 0.6793558597564697,
+      "noiseprint": 0.44692019903856384,
+      "copy_move": 0.15,
+      "semantic": 0.19166666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.523871123790741,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200407_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11567975338548422,
+      "visual": 0.5,
+      "layout": 0.46980856704551216,
+      "ocr": 0.34635591922024234,
+      "font_gmm": 0.513385534286499,
+      "noiseprint": 0.46436691965206056,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.4711668789386749,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200407_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1072612578049302,
+      "visual": 0.42416854754090305,
+      "layout": 0.4807837113386898,
+      "ocr": 0.36629987823238347,
+      "font_gmm": 0.5726491808891296,
+      "noiseprint": 0.47957727940467704,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5209498405456543,
+      "text_perp": 0.8
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200407_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09301457125693559,
+      "visual": 0.5,
+      "layout": 0.543505238774155,
+      "ocr": 0.3915273978293767,
+      "font_gmm": 0.7058991193771362,
+      "noiseprint": 0.41788067185504935,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5325901508331299,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200416_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09394529815763235,
+      "visual": 0.38852352082729336,
+      "layout": 0.5456029136910323,
+      "ocr": 0.34763489582113444,
+      "font_gmm": 0.6313204765319824,
+      "noiseprint": 0.46828419641240027,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5580580830574036,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200416_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0906501803547144,
+      "visual": 0.37759421899914736,
+      "layout": 0.5436374339157197,
+      "ocr": 0.3410115918817588,
+      "font_gmm": 0.6414348483085632,
+      "noiseprint": 0.4572196640314762,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5673198103904724,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200416_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09451392944902182,
+      "visual": 0.3864655375480652,
+      "layout": 0.5397310097655276,
+      "ocr": 0.3634499065773932,
+      "font_gmm": 0.6578552722930908,
+      "noiseprint": 0.4537749427427866,
+      "copy_move": 0.15,
+      "semantic": 0.32500000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5621516108512878,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200427_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10051624607294797,
+      "visual": 0.44027526959776875,
+      "layout": 0.5748300663805999,
+      "ocr": 0.3661454272319571,
+      "font_gmm": 0.9349671006202698,
+      "noiseprint": 0.49923931369966446,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5636905431747437,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200427_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10093331467360257,
+      "visual": 0.4228650118410586,
+      "layout": 0.5839251221555617,
+      "ocr": 0.37214494293843553,
+      "font_gmm": 0.941908597946167,
+      "noiseprint": 0.482439867554053,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5617202520370483,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200427_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09774626567959785,
+      "visual": 0.4264364239573478,
+      "layout": 0.580199811621361,
+      "ocr": 0.3878261444399981,
+      "font_gmm": 0.9284079074859619,
+      "noiseprint": 0.4893973869371862,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5558518767356873,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200438_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07267145281657576,
+      "visual": 0.5,
+      "layout": 0.5131845347864984,
+      "ocr": 0.3366646240224224,
+      "font_gmm": 0.945544421672821,
+      "noiseprint": 0.4214744667308641,
+      "copy_move": 0.15,
+      "semantic": 0.06666666666666667,
+      "offline_llm": 0.2,
+      "texture": 0.6507153511047363,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200438_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08311019539833069,
+      "visual": 0.5,
+      "layout": 0.534725391560667,
+      "ocr": 0.3755144388375237,
+      "font_gmm": 0.9203432202339172,
+      "noiseprint": 0.4400619379186407,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.647348165512085,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200438_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08642038572579622,
+      "visual": 0.5,
+      "layout": 0.5378389216705689,
+      "ocr": 0.3740546531693088,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.43898296512649687,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6474409103393555,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200450_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08793125208467245,
+      "visual": 0.5,
+      "layout": 0.5650378064735122,
+      "ocr": 0.36726099923194566,
+      "font_gmm": 0.9107525944709778,
+      "noiseprint": 0.4788938400011041,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5610336065292358,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200450_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0521498279646039,
+      "visual": 0.5,
+      "layout": 0.2947735489495541,
+      "ocr": 0.270832150437325,
+      "font_gmm": 0.40466928482055664,
+      "noiseprint": 0.15432115778892846,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.7167167663574219,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200450_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08452682308852673,
+      "visual": 0.5,
+      "layout": 0.5493588136078096,
+      "ocr": 0.3632948558991373,
+      "font_gmm": 0.9247807264328003,
+      "noiseprint": 0.4658020280655315,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5879153609275818,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200459_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07358059529215097,
+      "visual": 0.5,
+      "layout": 0.46859567156475307,
+      "ocr": 0.3188142808123828,
+      "font_gmm": 0.3091038763523102,
+      "noiseprint": 0.2898008681920615,
+      "copy_move": 0.15,
+      "semantic": 0.12916666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.6559993028640747,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200459_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09074900057166815,
+      "visual": 0.5,
+      "layout": 0.5564260109114487,
+      "ocr": 0.36495459542372416,
+      "font_gmm": 0.8919908404350281,
+      "noiseprint": 0.45963945403119044,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.576848566532135,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200459_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08835406880825758,
+      "visual": 0.5,
+      "layout": 0.5615018985177163,
+      "ocr": 0.38363918443711165,
+      "font_gmm": 0.8979068398475647,
+      "noiseprint": 0.4559191381843658,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5732764005661011,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200507_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07527838936075568,
+      "visual": 0.5,
+      "layout": 0.5301817334075867,
+      "ocr": 0.3196676993583688,
+      "font_gmm": 0.6689664125442505,
+      "noiseprint": 0.3058802981910269,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.618624746799469,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200507_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09432238675653934,
+      "visual": 0.4037365454435348,
+      "layout": 0.557476340536757,
+      "ocr": 0.3670887401358992,
+      "font_gmm": 0.9376752972602844,
+      "noiseprint": 0.4746585781860771,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5726041793823242,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200507_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0985415058210492,
+      "visual": 0.42779487252235404,
+      "layout": 0.579464209384071,
+      "ocr": 0.38918707051805357,
+      "font_gmm": 0.9174700975418091,
+      "noiseprint": 0.49700979401667766,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5611259937286377,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200515_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09210036024451256,
+      "visual": 0.41332836553454394,
+      "layout": 0.5594942402936334,
+      "ocr": 0.39726645496719365,
+      "font_gmm": 0.8929709196090698,
+      "noiseprint": 0.46498921326268916,
+      "copy_move": 0.15,
+      "semantic": 0.26250000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5853723287582397,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200515_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09527506977319716,
+      "visual": 0.43534078657627095,
+      "layout": 0.5461998324327294,
+      "ocr": 0.37714996977377224,
+      "font_gmm": 0.9104892015457153,
+      "noiseprint": 0.4911903214131694,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6037938594818115,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200515_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0916627287864685,
+      "visual": 0.41691825598478316,
+      "layout": 0.5346827121167449,
+      "ocr": 0.3700614639714296,
+      "font_gmm": 0.8768269419670105,
+      "noiseprint": 0.47556350584668666,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5757434964179993,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200524_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07228961400687695,
+      "visual": 0.3914052137732506,
+      "layout": 0.5578179000385978,
+      "ocr": 0.41667613190030983,
+      "font_gmm": 0.9061158299446106,
+      "noiseprint": 0.37780398663470255,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.5192878842353821,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200524_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06944080106914043,
+      "visual": 0.5,
+      "layout": 0.5203750751495893,
+      "ocr": 0.3813405493301801,
+      "font_gmm": 0.31537798047065735,
+      "noiseprint": 0.35006040962774787,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.6549157500267029,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200524_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09568060431629419,
+      "visual": 0.4070425122976303,
+      "layout": 0.5314087161374615,
+      "ocr": 0.36073790666399136,
+      "font_gmm": 0.9137312769889832,
+      "noiseprint": 0.46354953750780453,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5959312319755554,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200533_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09864950440824032,
+      "visual": 0.4070710606873035,
+      "layout": 0.5656637545324441,
+      "ocr": 0.3813958954473624,
+      "font_gmm": 0.9038201570510864,
+      "noiseprint": 0.4731625192102782,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5599362850189209,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200533_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0998130178079009,
+      "visual": 0.4150470891594886,
+      "layout": 0.6133094912526968,
+      "ocr": 0.41852399914281013,
+      "font_gmm": 0.9188069105148315,
+      "noiseprint": 0.4797539738430626,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5308727025985718,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200533_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10604090057313442,
+      "visual": 0.4149299927055835,
+      "layout": 0.5579803874089353,
+      "ocr": 0.3939479529859206,
+      "font_gmm": 0.9245561361312866,
+      "noiseprint": 0.48155121663964545,
+      "copy_move": 0.15,
+      "semantic": 0.20000000000000004,
+      "offline_llm": 0.2,
+      "texture": 0.5466862320899963,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200606_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08541198633611202,
+      "visual": 0.4305783112347126,
+      "layout": 0.5618187900044956,
+      "ocr": 0.3822694419350814,
+      "font_gmm": 0.41142821311950684,
+      "noiseprint": 0.47894946215704365,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5595035552978516,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200606_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08722034003585577,
+      "visual": 0.43423243328928945,
+      "layout": 0.5743272085101809,
+      "ocr": 0.3958699656855701,
+      "font_gmm": 0.6108121275901794,
+      "noiseprint": 0.48281254033472387,
+      "copy_move": 0.15,
+      "semantic": 0.38750000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5832922458648682,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200606_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08988136108964681,
+      "visual": 0.42493237301707265,
+      "layout": 0.5688110808512156,
+      "ocr": 0.40272800505469114,
+      "font_gmm": 0.6310958862304688,
+      "noiseprint": 0.46599142295723994,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.5852145552635193,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200639_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12331580445170402,
+      "visual": 0.4036361375451088,
+      "layout": 0.508654250944598,
+      "ocr": 0.4001611827414652,
+      "font_gmm": 0.5247262120246887,
+      "noiseprint": 0.44945468263119126,
+      "copy_move": 0.15,
+      "semantic": 0.45000000000000007,
+      "offline_llm": 0.2,
+      "texture": 0.4688950479030609,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200639_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10180809870362281,
+      "visual": 0.4095918905735016,
+      "layout": 0.5759464927144808,
+      "ocr": 0.3771539129266786,
+      "font_gmm": 0.8899803757667542,
+      "noiseprint": 0.49053073439399153,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5596845746040344,
+      "text_perp": 0.44
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200639_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10849932059645652,
+      "visual": 0.4145582541823387,
+      "layout": 0.5772428919887425,
+      "ocr": 0.3742533741729969,
+      "font_gmm": 0.9131108522415161,
+      "noiseprint": 0.48403192864997885,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.553100049495697,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200647_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09213394541293382,
+      "visual": 0.41315747067332265,
+      "layout": 0.554229796928209,
+      "ocr": 0.3630899749952144,
+      "font_gmm": 0.9164061546325684,
+      "noiseprint": 0.4831823440149965,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5508328676223755,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200647_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0922114362940192,
+      "visual": 0.40277753412723544,
+      "layout": 0.5554112672657322,
+      "ocr": 0.35561352380363087,
+      "font_gmm": 0.9199799299240112,
+      "noiseprint": 0.4754935673483102,
+      "copy_move": 0.15,
+      "semantic": 0.19583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5615440607070923,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200647_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07521171923726797,
+      "visual": 0.5,
+      "layout": 0.5513708899685176,
+      "ocr": 0.379350227551124,
+      "font_gmm": 0.841640830039978,
+      "noiseprint": 0.3130077561082622,
+      "copy_move": 0.15,
+      "semantic": 0.13333333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6341574788093567,
+      "text_perp": 0.48000000000000004
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200707_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08446704857051372,
+      "visual": 0.5,
+      "layout": 0.5363957215652027,
+      "ocr": 0.3368813994481333,
+      "font_gmm": 0.8921951055526733,
+      "noiseprint": 0.4399032444617356,
+      "copy_move": 0.15,
+      "semantic": 0.2583333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.6281063556671143,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200707_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10383106693625449,
+      "visual": 0.36614206627011303,
+      "layout": 0.5326643569752909,
+      "ocr": 0.388146497296616,
+      "font_gmm": 0.5639598965644836,
+      "noiseprint": 0.4112343017116482,
+      "copy_move": 0.15,
+      "semantic": 0.19166666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.557245135307312,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_Screenshot 2026-04-19 200707_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08773144669830799,
+      "visual": 0.5,
+      "layout": 0.5382520488290147,
+      "ocr": 0.3590707497039483,
+      "font_gmm": 0.9306209087371826,
+      "noiseprint": 0.45245510867551997,
+      "copy_move": 0.15,
+      "semantic": 0.3208333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.61651211977005,
+      "text_perp": 0.56
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.03549151290208101,
+      "visual": 0.6091499150544405,
+      "layout": 0.5448501487798384,
+      "ocr": 0.43832310650112205,
+      "font_gmm": 0.5415943264961243,
+      "noiseprint": 0.6122184010702183,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.24499785900115967,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07194934878498316,
+      "visual": 0.48322766818106166,
+      "layout": 0.4138957181520963,
+      "ocr": 0.46698491394963737,
+      "font_gmm": 0.37681663036346436,
+      "noiseprint": 0.46121890736618243,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3376601040363312,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0622658435255289,
+      "visual": 0.599587012976408,
+      "layout": 0.42591833466712176,
+      "ocr": 0.5359907607109137,
+      "font_gmm": 0.25,
+      "noiseprint": 0.623756704534279,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.25296732783317566,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.034561206679791213,
+      "visual": 0.5876354800909758,
+      "layout": 0.3961965211668551,
+      "ocr": 0.5165021626384436,
+      "font_gmm": 0.5929254293441772,
+      "noiseprint": 0.5921471984764084,
+      "copy_move": 0.15,
+      "semantic": 0.1875,
+      "offline_llm": 0.2,
+      "texture": 0.26619452238082886,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13001686781644822,
+      "visual": 0.5441909386217594,
+      "layout": 0.409366461016595,
+      "ocr": 0.425279647715206,
+      "font_gmm": 0.47011667490005493,
+      "noiseprint": 0.5066159200537448,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.28733840584754944,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.062380684353411195,
+      "visual": 0.5,
+      "layout": 0.45535104706363344,
+      "ocr": 0.3948924836309885,
+      "font_gmm": 0.4619026780128479,
+      "noiseprint": 0.35681530314085597,
+      "copy_move": 0.15,
+      "semantic": 0.19166666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3835105299949646,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-10_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06702309995889663,
+      "visual": 0.6042471741139888,
+      "layout": 0.3209577615601762,
+      "ocr": 0.3600855884473182,
+      "font_gmm": 0.25,
+      "noiseprint": 0.6309833828612392,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.26658809185028076,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07115207780152559,
+      "visual": 0.5112570182979107,
+      "layout": 0.536255588813168,
+      "ocr": 0.4164291791611191,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4874339506833184,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.2993438243865967,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07858121898025273,
+      "visual": 0.1678837737441063,
+      "layout": 0.3517407011557897,
+      "ocr": 0.4490201220536905,
+      "font_gmm": 0.24758577346801758,
+      "noiseprint": 0.11941516508375427,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.46674129366874695,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1362493749707937,
+      "visual": 0.5133115611225366,
+      "layout": 0.516446872460837,
+      "ocr": 0.4087547381945569,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5107696227159548,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.2886345088481903,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05810710657387971,
+      "visual": 0.26978800795972346,
+      "layout": 0.5884355114703694,
+      "ocr": 0.4471181981756355,
+      "font_gmm": 0.4131163954734802,
+      "noiseprint": 0.26400986782380015,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4592739939689636,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13492333218455313,
+      "visual": 0.535398557409644,
+      "layout": 0.5591972845153736,
+      "ocr": 0.4244051095388456,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5147681512905719,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.2982264459133148,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06425094846636056,
+      "visual": 0.4994378536939621,
+      "layout": 0.5249489098838405,
+      "ocr": 0.40663523121857037,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4742277871516591,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.29976263642311096,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.04932828862220049,
+      "visual": 0.2439791613817215,
+      "layout": 0.5490444605213295,
+      "ocr": 0.42662108397041926,
+      "font_gmm": 0.3349771499633789,
+      "noiseprint": 0.21762080196015063,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4629586637020111,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-1_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.127443715557456,
+      "visual": 0.49050212152302264,
+      "layout": 0.6149520388723572,
+      "ocr": 0.47062182928968144,
+      "font_gmm": 0.25,
+      "noiseprint": 0.4843937297505664,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.28690311312675476,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07756642270833254,
+      "visual": 0.5,
+      "layout": 0.5634877641335643,
+      "ocr": 0.4298359512865175,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7022303784725183,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.27110061049461365,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.16991745345294473,
+      "visual": 0.5,
+      "layout": 0.5684339613591664,
+      "ocr": 0.4322483838268275,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7140094558077451,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.2550671696662903,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11736544854938984,
+      "visual": 0.5,
+      "layout": 0.5435368311659065,
+      "ocr": 0.42563273615477587,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7079231391702809,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.25239723920822144,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.15503088682889937,
+      "visual": 0.5,
+      "layout": 0.5676080152098143,
+      "ocr": 0.4230750922587144,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7314919090591668,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.26530876755714417,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07307362016290427,
+      "visual": 0.5,
+      "layout": 0.5587170011485425,
+      "ocr": 0.4266195682038002,
+      "font_gmm": 0.25,
+      "noiseprint": 0.70863750734843,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.2510257959365845,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-2_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.16662272699177266,
+      "visual": 0.5,
+      "layout": 0.592534672792634,
+      "ocr": 0.45674522225713804,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7099190841075845,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.2492673397064209,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0990657040849328,
+      "visual": 0.5,
+      "layout": 0.5128506335980519,
+      "ocr": 0.43583690162985056,
+      "font_gmm": 0.4944610893726349,
+      "noiseprint": 0.5588569510667618,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.44838783144950867,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12013428136706353,
+      "visual": 0.5,
+      "layout": 0.5128506335980519,
+      "ocr": 0.43583690162985056,
+      "font_gmm": 0.3397670388221741,
+      "noiseprint": 0.5781685062170903,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.432271808385849,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08907586373388766,
+      "visual": 0.5,
+      "layout": 0.5436901011066996,
+      "ocr": 0.46593322343988464,
+      "font_gmm": 0.42797863483428955,
+      "noiseprint": 0.545508580143064,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4536534249782562,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10259831231087445,
+      "visual": 0.5,
+      "layout": 0.5169306088862419,
+      "ocr": 0.4412859554472964,
+      "font_gmm": 0.3397670388221741,
+      "noiseprint": 0.5697746556578438,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.45436006784439087,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05739882793277502,
+      "visual": 0.5,
+      "layout": 0.5640821142930258,
+      "ocr": 0.4386591385518256,
+      "font_gmm": 0.7901420593261719,
+      "noiseprint": 0.5624232200435532,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.43704691529273987,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-3_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09137019999325274,
+      "visual": 0.5,
+      "layout": 0.5165668272549687,
+      "ocr": 0.4291667176443521,
+      "font_gmm": 0.8833559155464172,
+      "noiseprint": 0.5683221875123825,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.44519495964050293,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06224239924922585,
+      "visual": 0.21231756143271924,
+      "layout": 0.49111642484140106,
+      "ocr": 0.3789924130053204,
+      "font_gmm": 0.6265175342559814,
+      "noiseprint": 0.19634483315370949,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.6463532447814941,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13086395747959612,
+      "visual": 0.24178680479526518,
+      "layout": 0.49499438459066614,
+      "ocr": 0.4009536611157482,
+      "font_gmm": 0.25,
+      "noiseprint": 0.22263359305843633,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.553833544254303,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1241707930341363,
+      "visual": 0.22292659670114517,
+      "layout": 0.47289842486992884,
+      "ocr": 0.3864270189211271,
+      "font_gmm": 0.3686560392379761,
+      "noiseprint": 0.19064123657816645,
+      "copy_move": 0.15,
+      "semantic": 0.3833333333333333,
+      "offline_llm": 0.2,
+      "texture": 0.5267394185066223,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1282305359840393,
+      "visual": 0.231284301802516,
+      "layout": 0.49439751254651026,
+      "ocr": 0.4152833371850396,
+      "font_gmm": 0.25,
+      "noiseprint": 0.22212596003020868,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5657232999801636,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06358076017349959,
+      "visual": 0.24344866149127486,
+      "layout": 0.527285612258406,
+      "ocr": 0.4038375709943737,
+      "font_gmm": 0.4504186809062958,
+      "noiseprint": 0.22780713559084456,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5619626045227051,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-4_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13894563615322114,
+      "visual": 0.2494720010459423,
+      "layout": 0.48978140231304723,
+      "ocr": 0.4011790055433372,
+      "font_gmm": 0.25,
+      "noiseprint": 0.23129277053666358,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5611317157745361,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-5_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12626745440065862,
+      "visual": 0.5189363899827003,
+      "layout": 0.5172295194129846,
+      "ocr": 0.48519840138308984,
+      "font_gmm": 0.0,
+      "noiseprint": 0.44832460520175593,
+      "copy_move": 0.15,
+      "semantic": 0.41666666666666663,
+      "offline_llm": 0.2,
+      "texture": 0.31777387857437134,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-5_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12643166184425353,
+      "visual": 0.5097257187962532,
+      "layout": 0.5060450540988097,
+      "ocr": 0.4750976657270487,
+      "font_gmm": 0.4878636300563812,
+      "noiseprint": 0.43227833435222207,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33360186219215393,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-5_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10704906284809113,
+      "visual": 0.5007269285619259,
+      "layout": 0.5049515887271047,
+      "ocr": 0.47684957918575555,
+      "font_gmm": 0.4878636300563812,
+      "noiseprint": 0.4135287031076603,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3256763219833374,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-6_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.043622149527072905,
+      "visual": 0.2279004770517349,
+      "layout": 0.5293503901726232,
+      "ocr": 0.3890377133756699,
+      "font_gmm": 0.5433669090270996,
+      "noiseprint": 0.21844594638767756,
+      "copy_move": 0.15,
+      "semantic": 0.35,
+      "offline_llm": 0.2,
+      "texture": 0.6231691241264343,
+      "text_perp": 0.44
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-6_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.17368116416037083,
+      "visual": 0.4408084504306316,
+      "layout": 0.5683581082901152,
+      "ocr": 0.4309557150025936,
+      "font_gmm": 0.9886079430580139,
+      "noiseprint": 0.40650421565853845,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.27904099225997925,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-6_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.17314622476696967,
+      "visual": 0.41554737180471424,
+      "layout": 0.5706845978537483,
+      "ocr": 0.4264684570505072,
+      "font_gmm": 1.0,
+      "noiseprint": 0.3533727644765493,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30833715200424194,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-7_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1140075210481882,
+      "visual": 0.5,
+      "layout": 0.5635231929540151,
+      "ocr": 0.3919074386633601,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3623677200485062,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33383530378341675,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-7_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.06013815067708492,
+      "visual": 0.2796661151945591,
+      "layout": 0.4362005473605455,
+      "ocr": 0.3887097900330521,
+      "font_gmm": 0.33436229825019836,
+      "noiseprint": 0.24567020402593728,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4165404438972473,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-7_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08877777382731437,
+      "visual": 0.5,
+      "layout": 0.5695488482391889,
+      "ocr": 0.40046452331708426,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3624348325624571,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3326990604400635,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-8_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09538300838321448,
+      "visual": 0.7027418874204159,
+      "layout": 0.7045191499855715,
+      "ocr": 0.4097549994229369,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.24168632924556732,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-8_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1555912297219038,
+      "visual": 0.6974907346069812,
+      "layout": 0.7630328588888955,
+      "ocr": 0.42659533371130604,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.26558804512023926,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-8_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.127247092500329,
+      "visual": 0.40257454589009284,
+      "layout": 0.4928069739980727,
+      "ocr": 0.3940563452739319,
+      "font_gmm": 0.10989634692668915,
+      "noiseprint": 0.40570419245600653,
+      "copy_move": 0.15,
+      "semantic": 0.0625,
+      "offline_llm": 0.2,
+      "texture": 0.25750938057899475,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-9_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13730949647724627,
+      "visual": 0.7023306787014008,
+      "layout": 0.5986071702752788,
+      "ocr": 0.30490824967239577,
+      "font_gmm": 0.15042376518249512,
+      "noiseprint": 0.7800985078074589,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.332809716463089,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-9_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1363638399168849,
+      "visual": 0.7022032245993614,
+      "layout": 0.6072313648625091,
+      "ocr": 0.31284190811447,
+      "font_gmm": 0.1650402843952179,
+      "noiseprint": 0.7947826963331678,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.3237598240375519,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\external_forged_dataset_ms-9_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05261337906122208,
+      "visual": 0.33770854130387307,
+      "layout": 0.5952780030720849,
+      "ocr": 0.29990475503010805,
+      "font_gmm": 0.8138747811317444,
+      "noiseprint": 0.31631565426617386,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.39045578241348267,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-10_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05740293189883232,
+      "visual": 0.5962045200169086,
+      "layout": 0.4261868838974839,
+      "ocr": 0.5353972813357883,
+      "font_gmm": 0.08119165897369385,
+      "noiseprint": 0.597261968169291,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.25657638907432556,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-10_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0498965723440051,
+      "visual": 0.6413100710511208,
+      "layout": 0.4428521450559198,
+      "ocr": 0.5306662585313923,
+      "font_gmm": 0.25,
+      "noiseprint": 0.6468305685684321,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.25544610619544983,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-10_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.07320622298866511,
+      "visual": 0.6244872878491878,
+      "layout": 0.42539478625890215,
+      "ocr": 0.535598099404749,
+      "font_gmm": 0.25,
+      "noiseprint": 0.6418878502979483,
+      "copy_move": 0.15,
+      "semantic": 0.125,
+      "offline_llm": 0.2,
+      "texture": 0.2682834267616272,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-10_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1444024655967951,
+      "visual": 0.5012887515127659,
+      "layout": 0.4138965296684612,
+      "ocr": 0.40517868027577875,
+      "font_gmm": 0.466650128364563,
+      "noiseprint": 0.49005684204368527,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.2912164032459259,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-1_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13670388869941233,
+      "visual": 0.5248042102158069,
+      "layout": 0.5412965592183646,
+      "ocr": 0.4231437669198173,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5177873354511064,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.2996727526187897,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-1_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13468616679310796,
+      "visual": 0.530696467012167,
+      "layout": 0.5719943068774987,
+      "ocr": 0.44693930421657146,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5095241625323623,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30364710092544556,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-1_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13635844625532625,
+      "visual": 0.500330148935318,
+      "layout": 0.5399614558409469,
+      "ocr": 0.4215146257263477,
+      "font_gmm": 0.25,
+      "noiseprint": 0.47187599562702676,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30013778805732727,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-1_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13190910182893276,
+      "visual": 0.5260131841152906,
+      "layout": 0.5450475223017923,
+      "ocr": 0.4271598402293288,
+      "font_gmm": 0.25,
+      "noiseprint": 0.5246282254299293,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.29672273993492126,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-2_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.154377543926239,
+      "visual": 0.5,
+      "layout": 0.5227683534333203,
+      "ocr": 0.4038660890054008,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7232483939578904,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.24519197642803192,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-2_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.0714155163615942,
+      "visual": 0.5,
+      "layout": 0.5640742598711727,
+      "ocr": 0.4346209329903876,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7027005969985141,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.2572392225265503,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-2_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.171417336165905,
+      "visual": 0.5,
+      "layout": 0.5651033830558918,
+      "ocr": 0.4318735683436647,
+      "font_gmm": 0.25,
+      "noiseprint": 0.727830239337763,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.24649804830551147,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-2_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.15173187628388404,
+      "visual": 0.5,
+      "layout": 0.5581165789925137,
+      "ocr": 0.4318894135036023,
+      "font_gmm": 0.25,
+      "noiseprint": 0.7407870513216299,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.25147247314453125,
+      "text_perp": 0.4
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-3_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05136707089841366,
+      "visual": 0.5,
+      "layout": 0.522663450301267,
+      "ocr": 0.439305912539332,
+      "font_gmm": 0.8543376326560974,
+      "noiseprint": 0.5640480264302004,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.45487329363822937,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-3_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11800667010247708,
+      "visual": 0.5010544824600219,
+      "layout": 0.5039027150371167,
+      "ocr": 0.47677886921455603,
+      "font_gmm": 0.300098180770874,
+      "noiseprint": 0.4423939631846774,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.38064098358154297,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-3_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.096036646515131,
+      "visual": 0.5,
+      "layout": 0.5128073930213626,
+      "ocr": 0.4398915636349024,
+      "font_gmm": 0.42797863483428955,
+      "noiseprint": 0.5567218880566048,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.4690295457839966,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-3_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08340046014636754,
+      "visual": 0.5,
+      "layout": 0.5248894890265897,
+      "ocr": 0.4328190999238138,
+      "font_gmm": 0.3397670388221741,
+      "noiseprint": 0.5693739075928079,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.45586061477661133,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-4_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1628513265401125,
+      "visual": 0.7020827330648899,
+      "layout": 0.6707570540427596,
+      "ocr": 0.4241721187978565,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.27272915840148926,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-4_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12147191073745489,
+      "visual": 0.24191811852157116,
+      "layout": 0.48708365846006957,
+      "ocr": 0.38604047629100785,
+      "font_gmm": 0.25,
+      "noiseprint": 0.23555790639125762,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5912613272666931,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-4_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1287333708256483,
+      "visual": 0.5,
+      "layout": 0.44645925822917365,
+      "ocr": 0.4183080635921568,
+      "font_gmm": 0.24641633033752441,
+      "noiseprint": 0.5631747965734722,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.34592515230178833,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-4_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.05530194723978638,
+      "visual": 0.23121385425329205,
+      "layout": 0.4786716293125745,
+      "ocr": 0.3852173986672185,
+      "font_gmm": 0.3434533476829529,
+      "noiseprint": 0.20984025925998756,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.5291862487792969,
+      "text_perp": 0.32
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-5_forged_0_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12623526863753795,
+      "visual": 0.5021562473475933,
+      "layout": 0.5077518596298443,
+      "ocr": 0.48074760396246563,
+      "font_gmm": 0.4878636300563812,
+      "noiseprint": 0.4136790091439228,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3252156376838684,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-5_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1098229605704546,
+      "visual": 0.5343257599323987,
+      "layout": 0.5008526664368607,
+      "ocr": 0.4737785580377466,
+      "font_gmm": 0.0,
+      "noiseprint": 0.4452287454270382,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.32497990131378174,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-5_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12831405997276307,
+      "visual": 0.5179963669180869,
+      "layout": 0.5096276113074886,
+      "ocr": 0.485153435560643,
+      "font_gmm": 0.4878636300563812,
+      "noiseprint": 0.43732531794076246,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.34138086438179016,
+      "text_perp": 0.36
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-5_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1205124869942665,
+      "visual": 0.515534320026636,
+      "layout": 0.5185456694727433,
+      "ocr": 0.4895346704168664,
+      "font_gmm": 0.0,
+      "noiseprint": 0.44696944552834394,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.34751957654953003,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-6_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.16732250414788724,
+      "visual": 0.45497426614165304,
+      "layout": 0.5699794378284743,
+      "ocr": 0.4239612016082866,
+      "font_gmm": 0.8032451272010803,
+      "noiseprint": 0.4233177714571801,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.30818796157836914,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-6_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09872667118906975,
+      "visual": 0.4109265214204788,
+      "layout": 0.4855890826501365,
+      "ocr": 0.39574972991048396,
+      "font_gmm": 0.3617364764213562,
+      "noiseprint": 0.376161235874631,
+      "copy_move": 0.15,
+      "semantic": 0.25,
+      "offline_llm": 0.2,
+      "texture": 0.3534645736217499,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-6_forged_2_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.08546329122036694,
+      "visual": 0.40692322492599486,
+      "layout": 0.5654361732727756,
+      "ocr": 0.42238611815834115,
+      "font_gmm": 0.7779322862625122,
+      "noiseprint": 0.3540716505778254,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3131635785102844,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-6_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1734670799225569,
+      "visual": 0.41702832907438275,
+      "layout": 0.5635471841568032,
+      "ocr": 0.42807616274165583,
+      "font_gmm": 1.0,
+      "noiseprint": 0.3542753488776909,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.3053165078163147,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-7_forged_0_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11392872259020806,
+      "visual": 0.5,
+      "layout": 0.5637941052169864,
+      "ocr": 0.3934460750589507,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3759044176038805,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33321139216423035,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-7_forged_1_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1139152642339468,
+      "visual": 0.5,
+      "layout": 0.5650017537155042,
+      "ocr": 0.3912815871144642,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3757469234256954,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.32825344800949097,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-7_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11401889696717263,
+      "visual": 0.5,
+      "layout": 0.5437936139719959,
+      "ocr": 0.38114896156682115,
+      "font_gmm": 0.25,
+      "noiseprint": 0.3758807580968836,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33541256189346313,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-7_forged_3_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.11407805271446705,
+      "visual": 0.5,
+      "layout": 0.5574867104569681,
+      "ocr": 0.38369248971504655,
+      "font_gmm": 0.25,
+      "noiseprint": 0.37883816360641315,
+      "copy_move": 0.15,
+      "semantic": 0.31666666666666665,
+      "offline_llm": 0.2,
+      "texture": 0.33741968870162964,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-8_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.068634520098567,
+      "visual": 0.7039649941027164,
+      "layout": 0.7109343090692635,
+      "ocr": 0.423814141512221,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.22559165954589844,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-8_forged_1_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1904156941920519,
+      "visual": 0.6988120682537555,
+      "layout": 0.40209535526753537,
+      "ocr": 0.24386419168899642,
+      "font_gmm": 0.036713987588882446,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.16428658366203308,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-8_forged_2_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.1647874344140291,
+      "visual": 0.7042833790183067,
+      "layout": 0.710103727395377,
+      "ocr": 0.40817729698895855,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.20725436508655548,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-8_forged_3_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.09919219855219125,
+      "visual": 0.7032035343348979,
+      "layout": 0.7429209242479324,
+      "ocr": 0.42151533287554505,
+      "font_gmm": 0.25,
+      "noiseprint": 1.0,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.2526285648345947,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-9_forged_0_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.12201284542679786,
+      "visual": 0.7020746961236,
+      "layout": 0.6002832098249966,
+      "ocr": 0.3095782328964858,
+      "font_gmm": 0.13721367716789246,
+      "noiseprint": 0.7886039163633504,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.3285588324069977,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-9_forged_1_copy_paste.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13647632785141467,
+      "visual": 0.7021417036652564,
+      "layout": 0.6338521437461238,
+      "ocr": 0.34018851197675726,
+      "font_gmm": 0.15042376518249512,
+      "noiseprint": 0.7494702981355181,
+      "copy_move": 0.15,
+      "semantic": 0.0625,
+      "offline_llm": 0.2,
+      "texture": 0.3387849032878876,
+      "text_perp": 0.28
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-9_forged_2_text_insertion.png",
+    "label": 1,
+    "features": {
+      "ela": 0.13683092575520278,
+      "visual": 0.7013390213251114,
+      "layout": 0.5989668567251502,
+      "ocr": 0.30086246977690745,
+      "font_gmm": 0.15042376518249512,
+      "noiseprint": 0.7970769495710043,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.3343815207481384,
+      "text_perp": 0.2
+    }
+  },
+  {
+    "path": "D:\\docforge_detector2\\forgeshield-backend\\detector\\generated_dataset\\forged\\ms-9_forged_3_splicing.png",
+    "label": 1,
+    "features": {
+      "ela": 0.10381432976573705,
+      "visual": 0.5,
+      "layout": 0.5196708068575949,
+      "ocr": 0.26027736665176815,
+      "font_gmm": 0.18529745936393738,
+      "noiseprint": 0.7675084482497849,
+      "copy_move": 0.15,
+      "semantic": 0.0,
+      "offline_llm": 0.2,
+      "texture": 0.36245545744895935,
+      "text_perp": 0.2
+    }
+  }
+]
